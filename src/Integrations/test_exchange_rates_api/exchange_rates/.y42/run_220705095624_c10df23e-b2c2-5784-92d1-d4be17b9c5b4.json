@@ -1,6 +1,6 @@
 {
   "request_id": "220705095624_c10df23e-b2c2-5784-92d1-d4be17b9c5b4",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "be50b7c1-23c1-4608-bf91-f8bbc09fc2ec",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -217,7 +217,21 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a56695-3201-356c-0000-e9a100178cda",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-exchange-rates-api/21eb10c1-0fdd-415c-a7d0-3649d85aa329",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-05T09:57:34.165328+00:00",
+    "row_count": 0,
+    "current_import_row_count": 0,
+    "size_in_bytes": 0,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220705095624_c10df23e-b2c2-5784-92d1-d4be17b9c5b4",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220705095624_c10df23e-b2c2-5784-92d1-d4be17b9c5b4"
   },
-  "_signature": "NSmNx5hfVeKwJN1SomLpjrufvAWi4WsWerjqC2MEiD9BbtrLochDBSc1IkEogmzoRhu9MuQuMc5EolA0+maFDw=="
+  "finished_at": "2022-07-05T09:57:34.165461+00:00",
+  "_signature": "9N+TGscm8pzkqyT6t3dH9KlZzDn6TkUKj3aKyfcomzLQb+kBNrZphzI9O+PR0x3o7IjID1QuJtF6tjAteKh/DA=="
 }
