@@ -2,115 +2,1028 @@
   "streams": [
     {
       "key_properties": [
-        "id"
+        "date"
       ],
-      "replication_key": "id",
-      "replication_method": "INCREMENTAL",
+      "replication_key": "date",
+      "replication_method": "FULL_TABLE",
       "tap_stream_id": "exchange_rates",
       "group": null,
       "name": "exchange_rates",
       "stream": "exchange_rates",
       "schema": {
         "properties": {
-          "date_column": {
-            "format": "date",
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "datetime_column": {
+          "date": {
             "format": "date-time",
             "type": [
               "string",
               "null"
             ]
           },
-          "id": {
+          "AED": {
             "type": [
               "number",
               "null"
             ]
           },
-          "number_column": {
+          "AFN": {
             "type": [
               "number",
               "null"
             ]
           },
-          "integer_column": {
+          "ALL": {
             "type": [
-              "integer",
+              "number",
               "null"
             ]
           },
-          "string_column": {
+          "AMD": {
             "type": [
-              "string",
+              "number",
               "null"
             ]
           },
-          "boolean_column": {
+          "ANG": {
             "type": [
-              "boolean",
+              "number",
               "null"
             ]
           },
-          "object_column": {
-            "properties": {
-              "object_column_1": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "object_column_2": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              }
-            },
+          "AOA": {
             "type": [
-              "object",
+              "number",
               "null"
             ]
           },
-          "simple_array_column": {
-            "items": {
-              "type": [
-                "string",
-                "null"
-              ]
-            },
+          "ARS": {
             "type": [
-              "array",
+              "number",
               "null"
             ]
           },
-          "object_array_column": {
-            "items": {
-              "properties": {
-                "object_column_1": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "object_column_2": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                }
-              },
-              "type": [
-                "object",
-                "null"
-              ]
-            },
+          "AUD": {
             "type": [
-              "array",
+              "number",
+              "null"
+            ]
+          },
+          "AWG": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "AZN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BAM": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BBD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BDT": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BGN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BHD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BIF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BMD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BND": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BOB": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BRL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BSD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BTC": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BTN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BWP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BYN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BYR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "BZD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CAD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CDF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CHF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CLF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CLP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CNY": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "COP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CRC": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CUC": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CUP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CVE": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "CZK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "DJF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "DKK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "DOP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "DZD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "EGP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ERN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ETB": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "EUR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "FJD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "FKP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GBP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GEL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GGP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GHS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GIP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GMD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GNF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GTQ": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "GYD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "HKD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "HNL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "HRK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "HTG": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "HUF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "IDR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ILS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "IMP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "INR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "IQD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "IRR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ISK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "JEP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "JMD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "JOD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "JPY": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KES": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KGS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KHR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KMF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KPW": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KRW": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KWD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KYD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "KZT": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LAK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LBP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LKR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LRD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LSL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LTL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LVL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "LYD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MAD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MDL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MGA": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MKD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MMK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MNT": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MOP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MRO": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MUR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MVR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MWK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MXN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MYR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "MZN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NAD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NGN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NIO": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NOK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NPR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "NZD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "OMR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PAB": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PEN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PGK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PHP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PKR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PLN": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "PYG": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "QAR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "RON": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "RSD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "RUB": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "RWF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SAR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SBD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SCR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SDG": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SEK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SGD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SHP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SLL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SOS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SRD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "STD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SVC": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SYP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "SZL": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "THB": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TJS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TMT": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TND": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TOP": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TRY": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TTD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TWD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "TZS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "UAH": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "UGX": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "USD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "UYU": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "UZS": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "VEF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "VND": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "VUV": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "WST": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XAF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XAG": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XAU": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XCD": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XDR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XOF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "XPF": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "YER": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ZAR": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ZMK": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ZMW": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ZWL": {
+            "type": [
+              "number",
               "null"
             ]
           }
@@ -127,31 +1040,17 @@
             "stream_type": "standard",
             "forced-replication-method": "INCREMENTAL",
             "valid-replication-keys": [
-              "id"
+              "date"
             ],
             "table-key-properties": [
-              "id"
+              "date"
             ]
           }
         },
         {
           "breadcrumb": [
             "properties",
-            "date_column"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "datetime_column"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "id"
+            "date"
           ],
           "metadata": {
             "inclusion": "automatic"
@@ -160,108 +1059,1181 @@
         {
           "breadcrumb": [
             "properties",
-            "number_column"
+            "AED"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "integer_column"
+            "AFN"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "string_column"
+            "ALL"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "boolean_column"
+            "AMD"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_column"
+            "ANG"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_column",
-            "properties",
-            "object_column_1"
+            "AOA"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_column",
-            "properties",
-            "object_column_2"
+            "ARS"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "simple_array_column"
+            "AUD"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "simple_array_column",
-            "items"
+            "AWG"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_array_column"
+            "AZN"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_array_column",
-            "items"
+            "BAM"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_array_column",
-            "items",
-            "properties",
-            "object_column_1"
+            "BBD"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "object_array_column",
-            "items",
+            "BDT"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
             "properties",
-            "object_column_2"
+            "BGN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BHD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BIF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BMD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BND"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BOB"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BRL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BSD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BTC"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BTN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BWP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BYN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BYR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "BZD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CAD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CDF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CHF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CLF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CLP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CNY"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "COP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CRC"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CUC"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CUP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CVE"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "CZK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "DJF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "DKK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "DOP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "DZD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "EGP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ERN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ETB"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "EUR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "FJD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "FKP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GBP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GEL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GGP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GHS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GIP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GMD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GNF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GTQ"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "GYD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HKD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HNL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HRK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HTG"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HUF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "IDR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ILS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "IMP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "INR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "IQD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "IRR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ISK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "JEP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "JMD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "JOD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "JPY"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KES"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KGS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KHR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KMF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KPW"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KRW"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KWD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KYD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "KZT"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LAK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LBP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LKR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LRD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LSL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LTL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LVL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LYD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MAD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MDL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MGA"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MKD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MMK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MNT"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MOP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MRO"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MUR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MVR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MWK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MXN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MYR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "MZN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NAD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NGN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NIO"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NOK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NPR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "NZD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "OMR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PAB"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PEN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PGK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PHP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PKR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PLN"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PYG"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "QAR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "RON"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "RSD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "RUB"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "RWF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SAR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SBD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SCR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SDG"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SEK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SGD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SHP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SLL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SOS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SRD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "STD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SVC"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SYP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "SZL"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "THB"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TJS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TMT"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TND"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TOP"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TRY"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TTD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TWD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "TZS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "UAH"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "UGX"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "USD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "UYU"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "UZS"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VEF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VND"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VUV"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "WST"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XAF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XAG"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XAU"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XCD"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XDR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XOF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "XPF"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "YER"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ZAR"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ZMK"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ZMW"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ZWL"
           ],
           "metadata": {}
         }
       ]
     }
   ],
-  "_signature": "0yV1gmzYihI21niVZP3xy38m5e4qRokJvxCL9mnGdJTxFNqkAu1PFLw7Y4EQtBw8W/G9BmuvvWHX8jIKmREZCw=="
+  "_signature": "T5xCk77wbSwVjQB6GXBlAe05rcuP6q/8w7JbQouHlo2b+0kp85kshCvw4f+GJXGJAlUpjkP7VrH4O5RAk+jBCw=="
 }
