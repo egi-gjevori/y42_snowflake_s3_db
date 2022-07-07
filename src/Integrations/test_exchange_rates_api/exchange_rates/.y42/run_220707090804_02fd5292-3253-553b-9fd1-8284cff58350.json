@@ -1,0 +1,17 @@
+{
+  "request_id": "220707090804_02fd5292-3253-553b-9fd1-8284cff58350",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-07T10:42:27.500443+00:00",
+    "external_state": {
+      "schema_hash": "a8476e74b846953caacdf9ef32e40d50",
+      "test_state": "test_state_value"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57206-3201-37bf-0000-e9a10018432e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-exchange-rates-api/fb1d0cfc-3fda-4931-aee6-3b0bc27ad8db",
+    "partial": false
+  },
+  "_signature": "HeqapKQk9ZEOazcscUGCxdAHUM/tE18T3dzseIRT5q7RNVmxELknSz0mI644LxRA3Bbtr2R4qHxU81VStuj1DA=="
+}
