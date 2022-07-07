@@ -1,6 +1,6 @@
 {
   "request_id": "220707121330_a79aa312-0d13-58ad-be22-8f426b322cbe",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "be50b7c1-23c1-4608-bf91-f8bbc09fc2ec",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -58,7 +58,71 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a57261-3201-37be-0000-e9a10018515a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-exchange-rates-api/ebf29a7f-8bf1-474c-a122-fb551bb8dcb8",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-07T12:17:30.413885+00:00",
+    "row_count": 2000,
+    "current_import_row_count": 2000,
+    "size_in_bytes": 366080,
+    "columns": [
+      {
+        "field_name": "datetime_column",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "date_column",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "object_array_column",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "boolean_column",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "object_column_object_column_1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "integer_column",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "simple_array_column",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "number_column",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "object_column_object_column_2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "string_column",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220707121330_a79aa312-0d13-58ad-be22-8f426b322cbe",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220707121330_a79aa312-0d13-58ad-be22-8f426b322cbe"
   },
-  "_signature": "BC/e6Z1oHM2TbSPlZeyZPf1xfGVERdaQN4AgJ+J5IiCKjuJp1ChqOP99CjbB10hGIt5qILIzsxK7J+ww5WOMAA=="
+  "finished_at": "2022-07-07T12:17:30.413952+00:00",
+  "_signature": "G5JwvZ2FQzOLeOcvQlLXpdjerikpRrWdlsTCAgwiVBOJ2lLpDph6eCu8eeXbhvWw36j2VgxCOX79xYw6h5JNDA=="
 }
