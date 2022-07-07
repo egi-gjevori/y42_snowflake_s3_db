@@ -48,5 +48,17 @@
     }
   },
   "created_at": "2022-07-07T12:13:30.027701+00:00",
-  "_signature": "/ZL4SqCcIlzOYyCJ0lFOX6dBJ70hmyOqQ+kZU0JZxmBlRf1G/gAMLDkMtd6pnIIlPgc4jZ9AWcIcEnXvuw6fCw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-07T12:15:26.070521+00:00",
+    "external_state": {
+      "schema_hash": "46e9a3f4d749b485fd5b0a278ce8996e",
+      "test_state": "test_state_value"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57261-3201-37be-0000-e9a10018515a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-exchange-rates-api/ebf29a7f-8bf1-474c-a122-fb551bb8dcb8",
+    "partial": false
+  },
+  "_signature": "BC/e6Z1oHM2TbSPlZeyZPf1xfGVERdaQN4AgJ+J5IiCKjuJp1ChqOP99CjbB10hGIt5qILIzsxK7J+ww5WOMAA=="
 }
