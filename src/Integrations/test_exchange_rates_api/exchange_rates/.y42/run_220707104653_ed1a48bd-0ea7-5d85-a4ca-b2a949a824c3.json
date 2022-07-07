@@ -1,0 +1,52 @@
+{
+  "request_id": "220707104653_ed1a48bd-0ea7-5d85-a4ca-b2a949a824c3",
+  "status": "pending",
+  "request": {
+    "source_credentials": "be50b7c1-23c1-4608-bf91-f8bbc09fc2ec",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/exchange-rates-api/0.0.0/source.json",
+      "start_date": "2021-07-01T14:50:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/exchange-rates-api/0.0.0/table",
+      "columns": [
+        "id",
+        "date_column",
+        "datetime_column",
+        "number_column",
+        "integer_column",
+        "string_column",
+        "boolean_column",
+        "object_column",
+        "simple_array_column",
+        "object_array_column"
+      ],
+      "import": "exchange_rates"
+    },
+    "created_at": "2022-07-07T10:46:53.692687+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_exchange_rates_api/exchange_rates",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "5199c6b407d2b37664d04fdaf7c9d17dd0afe6d3"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-07T10:46:53.692687+00:00",
+  "_signature": "r91PUeO+VzpyV/fJvmNQtu9vPOSZldQ7Wqxxt335s1iy8GyfFtJUXIyurTs6/w2QMNaQbdPQyVBcX1Yl5eDeBQ=="
+}
