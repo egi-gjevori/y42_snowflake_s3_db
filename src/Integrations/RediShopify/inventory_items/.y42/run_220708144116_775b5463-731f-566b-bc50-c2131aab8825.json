@@ -1,0 +1,129 @@
+{
+  "request_id": "220708144116_775b5463-731f-566b-bc50-c2131aab8825",
+  "status": "ready",
+  "request": {
+    "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2022-07-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "cost",
+        "country_code_of_origin",
+        "country_harmonized_system_codes",
+        "created_at",
+        "updated_at",
+        "province_code_of_origin",
+        "sku",
+        "id",
+        "tracked",
+        "requires_shipping",
+        "admin_graphql_api_id"
+      ],
+      "import": "inventory_items"
+    },
+    "created_at": "2022-07-08T14:41:16.186719+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediShopify/inventory_items",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "242e618f54442bc5494824cf7d44642475743e11"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:41:16.186719+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:44:58.149389+00:00",
+    "external_state": {
+      "bookmarks": {},
+      "schema_hash": "b91c157b0b754d848edd79c100531c05"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57895-3201-38e6-0000-e9a10018736e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/85dc3897-0486-4c35-a8b5-8a567d739342",
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:45:12.888293+00:00",
+    "row_count": 4945,
+    "current_import_row_count": 4945,
+    "size_in_bytes": 171008,
+    "columns": [
+      {
+        "field_name": "country_harmonized_system_codes",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sku",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "requires_shipping",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "tracked",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "country_code_of_origin",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "province_code_of_origin",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220708144116_775b5463-731f-566b-bc50-c2131aab8825",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144116_775b5463-731f-566b-bc50-c2131aab8825"
+  },
+  "finished_at": "2022-07-08T14:45:12.888417+00:00",
+  "_signature": "D62E7xJOT+8KEhQL6zAwSQc9SfcQIPCjitqm4veuU22svGz9yQNdPR715lOFs6vbyGuuggnl1SXJ/CJ0/lzxAQ=="
+}

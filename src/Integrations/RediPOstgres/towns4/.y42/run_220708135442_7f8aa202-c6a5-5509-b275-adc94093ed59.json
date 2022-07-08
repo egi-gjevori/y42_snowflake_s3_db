@@ -1,0 +1,86 @@
+{
+  "request_id": "220708135442_7f8aa202-c6a5-5509-b275-adc94093ed59",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "code",
+        "article",
+        "name",
+        "name1",
+        "name2",
+        "name3",
+        "name4",
+        "name5",
+        "name6",
+        "name7",
+        "name8",
+        "name9",
+        "name10",
+        "name11",
+        "name12",
+        "name13",
+        "name14",
+        "name15",
+        "name16",
+        "name17",
+        "name18",
+        "name19",
+        "name20",
+        "name21",
+        "name22",
+        "name23",
+        "name24",
+        "name25",
+        "name26",
+        "name27",
+        "name28",
+        "name30",
+        "name31",
+        "name32",
+        "name33",
+        "name34",
+        "name35",
+        "name36",
+        "name37",
+        "name38",
+        "department"
+      ],
+      "import": "postgres-public-towns4"
+    },
+    "created_at": "2022-07-08T13:54:42.722197+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/towns4",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "dc25b767e67d69ebac228b5d2964b417123c3d74"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T13:54:42.722197+00:00",
+  "failed_at": "2022-07-08T14:26:26.535801+00:00",
+  "error_code": 500,
+  "error_message": "import failed",
+  "_signature": "MbhTy5P+aUuHs++fwAr73R8MiBWhxNbpINgwAsVGa+FmkbYwpgjwnkk5fZJDKTuCDHUA6co0G39j7biJeLb/Bg=="
+}

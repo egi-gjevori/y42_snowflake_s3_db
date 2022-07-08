@@ -1,0 +1,51 @@
+{
+  "request_id": "220708144114_62d4ae1e-ec75-5046-a7b0-9dc414d34785",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2022-07-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "code",
+        "usageCount",
+        "created_at",
+        "updated_at",
+        "id",
+        "parentId"
+      ],
+      "import": "discount_codes_ql"
+    },
+    "created_at": "2022-07-08T14:41:14.610397+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediShopify/discount_codes_ql",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "242e618f54442bc5494824cf7d44642475743e11"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:41:14.610397+00:00",
+  "failed_at": "2022-07-08T14:48:05.635096+00:00",
+  "error_code": 500,
+  "error_message": "import failed",
+  "_signature": "i9dmPpyCnyw58KVDluHoH7nXMnVzkTpfyzpW+vdah730pdOYAgZbgB31lUhMDI+DVwAZ8V7ZmbaM3llM7JDKBg=="
+}

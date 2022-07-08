@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "id",
+    "type",
+    "test",
+    "payout_id",
+    "payout_status",
+    "currency",
+    "amount",
+    "fee",
+    "net",
+    "source_id",
+    "source_type",
+    "source_order_transaction_id",
+    "source_order_id",
+    "processed_at"
+  ],
+  "import": "balance_transactions"
+}

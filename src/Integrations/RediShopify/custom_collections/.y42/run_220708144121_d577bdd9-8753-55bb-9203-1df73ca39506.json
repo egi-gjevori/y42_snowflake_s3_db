@@ -1,0 +1,137 @@
+{
+  "request_id": "220708144121_d577bdd9-8753-55bb-9203-1df73ca39506",
+  "status": "ready",
+  "request": {
+    "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2022-07-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "handle",
+        "sort_order",
+        "body_html",
+        "title",
+        "id",
+        "published_scope",
+        "admin_graphql_api_id",
+        "updated_at",
+        "image",
+        "published_at",
+        "template_suffix"
+      ],
+      "import": "custom_collections",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-08T14:41:21.437357+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediShopify/custom_collections",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "36bb9883cea0e6ee3ac8aa6cc48915a4495648ee"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:41:21.437357+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:44:02.416003+00:00",
+    "external_state": {
+      "bookmarks": {
+        "collections": {
+          "updated_at": "2022-07-08T14:43:33.000000Z"
+        }
+      },
+      "schema_hash": "d7d75aea523b2013a88b696c059822d6"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57894-3201-38e6-0000-e9a10018733a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/452aabce-e178-4028-83de-a327d6a461d6",
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:44:28.746276+00:00",
+    "row_count": 63,
+    "current_import_row_count": 63,
+    "size_in_bytes": 87040,
+    "columns": [
+      {
+        "field_name": "body_html",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "handle",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_scope",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sort_order",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "image",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_at",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "template_suffix",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144121_d577bdd9-8753-55bb-9203-1df73ca39506",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144121_d577bdd9-8753-55bb-9203-1df73ca39506"
+  },
+  "finished_at": "2022-07-08T14:44:28.746418+00:00",
+  "_signature": "m0s+QU27z45g7CFjtD6R/3QqosZTBxAvNZ5u0BFFB2wEuXs+b+4FfTM4NEMfnptDs0gt5L5b1iKjQ2yqvt6HCA=="
+}

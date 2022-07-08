@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "customer_selection",
+    "allocation_method",
+    "title",
+    "usage_limit",
+    "value",
+    "value_type",
+    "created_at",
+    "updated_at",
+    "once_per_customer",
+    "ends_at",
+    "starts_at",
+    "id",
+    "entitled_variant_ids",
+    "entitled_country_ids",
+    "entitled_collection_ids",
+    "entitled_product_ids",
+    "allocation_limit"
+  ],
+  "import": "price_rules"
+}

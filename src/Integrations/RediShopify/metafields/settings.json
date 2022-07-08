@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "owner_id",
+    "admin_graphql_api_id",
+    "owner_resource",
+    "value_type",
+    "key",
+    "created_at",
+    "id",
+    "namespace",
+    "description",
+    "value",
+    "updated_at"
+  ],
+  "import": "metafields"
+}

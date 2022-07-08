@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "customerOrderIndex",
+    "daysToConversion",
+    "parentId",
+    "firstVisit",
+    "lastVisit",
+    "moments"
+  ],
+  "import": "customer_journey",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

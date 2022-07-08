@@ -1,0 +1,173 @@
+{
+  "request_id": "220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9",
+  "status": "ready",
+  "request": {
+    "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2022-07-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "published_at",
+        "created_at",
+        "published_scope",
+        "vendor",
+        "updated_at",
+        "body_html",
+        "product_type",
+        "tags",
+        "options",
+        "image",
+        "handle",
+        "images",
+        "template_suffix",
+        "title",
+        "variants",
+        "admin_graphql_api_id",
+        "id"
+      ],
+      "import": "products",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-08T14:41:14.652835+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediShopify/products",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "242e618f54442bc5494824cf7d44642475743e11"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:41:14.652835+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:44:17.225105+00:00",
+    "external_state": {
+      "bookmarks": {
+        "products": {
+          "updated_at": "2022-07-08T14:43:35.000000Z"
+        }
+      },
+      "schema_hash": "26ff3c305490a58153f1ea0afdd054d8"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57894-3201-38e6-0000-e9a10018735e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/f23a37c9-613e-405f-b23b-392f936e3ef5",
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:44:35.671786+00:00",
+    "row_count": 221,
+    "current_import_row_count": 221,
+    "size_in_bytes": 932352,
+    "columns": [
+      {
+        "field_name": "vendor",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "handle",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "options",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "published_scope",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "body_html",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "product_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "variants",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "template_suffix",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "images",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "image",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9"
+  },
+  "finished_at": "2022-07-08T14:44:35.671912+00:00",
+  "_signature": "QUl0tu32+Z2QFrqKHX4Kd/jDu5GFKAvPtcYbLvzghqfLMTst/OZxAl/MlsFAK9PnsKMgxPEtlWSjsZDqJ7gfBQ=="
+}

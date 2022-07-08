@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "code",
+    "price_rule_id",
+    "usage_count",
+    "created_at",
+    "updated_at",
+    "id"
+  ],
+  "import": "discount_codes"
+}

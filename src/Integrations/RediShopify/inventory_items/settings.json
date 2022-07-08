@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "cost",
+    "country_code_of_origin",
+    "country_harmonized_system_codes",
+    "created_at",
+    "updated_at",
+    "province_code_of_origin",
+    "sku",
+    "id",
+    "tracked",
+    "requires_shipping",
+    "admin_graphql_api_id"
+  ],
+  "import": "inventory_items"
+}

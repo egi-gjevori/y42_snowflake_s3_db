@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "accountNumber",
+    "parentId",
+    "authorizationCode",
+    "errorCode",
+    "manuallyCapturable",
+    "createdAt",
+    "test",
+    "kind",
+    "order",
+    "amountSet",
+    "id",
+    "status",
+    "receipt",
+    "gateway",
+    "formattedGateway"
+  ],
+  "import": "transactions",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

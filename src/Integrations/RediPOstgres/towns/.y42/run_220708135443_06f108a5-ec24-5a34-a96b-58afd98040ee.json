@@ -1,0 +1,98 @@
+{
+  "request_id": "220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee",
+  "status": "ready",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "code",
+        "article",
+        "name",
+        "department"
+      ],
+      "import": "postgres-public-towns"
+    },
+    "created_at": "2022-07-08T13:54:43.541505+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/towns",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "dc25b767e67d69ebac228b5d2964b417123c3d74"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T13:54:43.541505+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:21:48.845809+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-towns": {
+          "last_replication_method": "FULL_TABLE",
+          "version": 1657288562064
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "ffa0b6a8bccef59565d4d36a32007f13"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5787d-3201-38e8-0000-e9a1001862e2",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/6f51d0bd-2de1-4544-b20d-1ae3d4721654",
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:22:05.724399+00:00",
+    "row_count": 100000,
+    "current_import_row_count": 100000,
+    "size_in_bytes": 7541760,
+    "columns": [
+      {
+        "field_name": "article",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "department",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee"
+  },
+  "finished_at": "2022-07-08T14:22:05.724577+00:00",
+  "_signature": "kv3NAv66KfGxajvcktrzPOq5uu5eSWQoBp4gQznpFUBO+FmbTlsvl1F4hN8mREmex82t1f2thWf3knnlP7DvDw=="
+}

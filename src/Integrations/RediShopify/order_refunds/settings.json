@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "legacyResourceId",
+    "note",
+    "id",
+    "totalRefundedSet",
+    "createdAt",
+    "updatedAt",
+    "duties",
+    "refundLineItems",
+    "parentId"
+  ],
+  "import": "order_refunds",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

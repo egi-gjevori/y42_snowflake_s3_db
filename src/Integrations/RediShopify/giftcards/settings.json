@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "id",
+    "createdAt",
+    "disabledAt",
+    "balance",
+    "currency",
+    "initialValue",
+    "enabled",
+    "expiresOn",
+    "lastCharacters",
+    "maskedCode",
+    "customer",
+    "order",
+    "note"
+  ],
+  "import": "giftcards"
+}

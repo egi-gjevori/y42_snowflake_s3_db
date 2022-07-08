@@ -1,0 +1,320 @@
+{
+  "request_id": "220708135442_6d2a47bf-0c71-5c77-8056-0b78a0354d64",
+  "status": "ready",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "code",
+        "article",
+        "name",
+        "name1",
+        "name2",
+        "name3",
+        "name4",
+        "name5",
+        "name6",
+        "name7",
+        "name8",
+        "name9",
+        "name10",
+        "name11",
+        "name12",
+        "name13",
+        "name14",
+        "name15",
+        "name16",
+        "name17",
+        "name18",
+        "name19",
+        "name20",
+        "name21",
+        "name22",
+        "name23",
+        "name24",
+        "name25",
+        "name26",
+        "name27",
+        "name28",
+        "name30",
+        "name31",
+        "name32",
+        "name33",
+        "name34",
+        "name35",
+        "name36",
+        "name37",
+        "name38",
+        "department"
+      ],
+      "import": "postgres-public-towns1k"
+    },
+    "created_at": "2022-07-08T13:54:42.810757+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/towns1k",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "dc25b767e67d69ebac228b5d2964b417123c3d74"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T13:54:42.810757+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:00:24.261598+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-towns1k": {
+          "last_replication_method": "FULL_TABLE",
+          "version": 1657288559418
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "2b5dfb2ce3a0ac0d226b3d2ee65338c2"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57868-3201-38e7-0000-e9a10018829a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/e24fa86c-3de2-48a9-80ce-97983c0c4c42",
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:00:42.015973+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 1270272,
+    "columns": [
+      {
+        "field_name": "name3",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name35",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name23",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name32",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name20",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name37",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name25",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name19",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name12",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name30",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name31",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name21",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "article",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name6",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name17",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name26",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name38",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name8",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name10",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "name22",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name5",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name36",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name28",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name4",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name11",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name16",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "department",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name9",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name18",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name24",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name33",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name27",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name15",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name14",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name13",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name7",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name34",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708135442_6d2a47bf-0c71-5c77-8056-0b78a0354d64",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708135442_6d2a47bf-0c71-5c77-8056-0b78a0354d64"
+  },
+  "finished_at": "2022-07-08T14:00:42.016179+00:00",
+  "_signature": "+aHmt3LDPL3JbSSkGE7n5NzJ49lEj4mMYfMUFs8D3OcK4ie/is56PM6/NkzDyGTl7qsMLNpmPelUjDPxVOYtAA=="
+}
