@@ -1,0 +1,60 @@
+{
+  "request_id": "220708150243_194b0c58-256d-5324-ba86-49ce741ac484",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "USI",
+        "VEPRIMLM",
+        "NIV",
+        "AKTPASIV",
+        "KODSKK",
+        "ORIGJINA",
+        "TIPI",
+        "TAG",
+        "USM",
+        "TAGNR",
+        "POZIC",
+        "PERSHKRIM",
+        "TROW",
+        "PERSHKRIM1",
+        "SUP",
+        "KOD",
+        "KLASA",
+        "KODORG",
+        "NRRENDOR"
+      ],
+      "import": "BM15_dbo_LLOGARISKK"
+    },
+    "created_at": "2022-07-08T15:02:43.832752+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/LLOGARISKK",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "47dc4644b1d77f17c9e513a35b4184de47593a47"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T15:02:43.832752+00:00",
+  "_signature": "PVEeH7KiYskIoDfSF8B+qObkMLTWl5LoNC8HIzjrCJoa7IqlRTJqr8Pa94uAwQSTqSgLnZ97e1pkzZqkcBYpDA=="
+}
