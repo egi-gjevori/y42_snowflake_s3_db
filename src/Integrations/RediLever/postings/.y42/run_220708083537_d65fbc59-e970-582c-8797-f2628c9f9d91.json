@@ -1,6 +1,6 @@
 {
   "request_id": "220708083537_d65fbc59-e970-582c-8797-f2628c9f9d91",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -66,7 +66,91 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a57727-3201-38e6-0000-e9a1001871fe",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-lever/89952d91-b0ac-498c-98b9-d287cbfe982d",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T08:39:58.144259+00:00",
+    "row_count": 484,
+    "current_import_row_count": 484,
+    "size_in_bytes": 437760,
+    "columns": [
+      {
+        "field_name": "owner",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "content",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "followers",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "createdat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "updatedat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "user",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "categories",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "urls",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "distributionchannels",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "hiringmanager",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "text",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reqcode",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708083537_d65fbc59-e970-582c-8797-f2628c9f9d91",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708083537_d65fbc59-e970-582c-8797-f2628c9f9d91"
   },
-  "_signature": "lNfV8VeIIpbh1VIUtM3d1AYtT7LEHf5jLQvbhhucK2Hb0arzwckvalZe/jOlp1mZ0SDzLQtFm90Zrh6+30pgBA=="
+  "finished_at": "2022-07-08T08:39:58.144463+00:00",
+  "_signature": "7DTkiAMujGTrx8CLlqdA7Ms5zXDMecWPln7p4IHxqy7D0lP34LLlMh39IG4LCayB042uDhfsAr8qQ6YmTqhqAQ=="
 }
