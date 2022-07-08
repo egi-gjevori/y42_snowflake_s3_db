@@ -1,6 +1,6 @@
 {
   "request_id": "220708083536_f873e6af-d2ef-5631-ac04-a64cd5fff42c",
-  "status": "invalid",
+  "status": "pending",
   "request": {
     "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -58,5 +58,22 @@
   "failed_at": "2022-07-08T09:36:53.163350+00:00",
   "error_code": 500,
   "error_message": "import failed",
-  "_signature": "wUxWK0a5XQ9jBiLNDf+kmRSveP1WujDv1+TOqyQ5tF7y6KQ+1EQK71DmxXjWGFbcr597GBqvuSArJPzJvGeADA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T18:11:16.901275+00:00",
+    "external_state": {
+      "bookmarks": {
+        "opportunities": {
+          "field": "updated_at",
+          "last_record": "2022-07-08T08:35:53Z"
+        }
+      },
+      "schema_hash": "ce6bb3952a61d5f8de80a996fa8f5868"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57963-3201-38e8-0000-e9a1001864e2",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-lever/fbb50032-a98a-4f93-b49f-e8b9a7922f19",
+    "partial": false
+  },
+  "_signature": "4VjDOlgBS7aLucinqu0r2jdbmDwcjKdAe/KNzf5xNv8CV7lAlhRGNCbC5Oiwx572U130CM7Mj7pdn2wpHFfNDw=="
 }
