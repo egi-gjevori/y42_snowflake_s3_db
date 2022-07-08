@@ -1,6 +1,6 @@
 {
   "request_id": "220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -58,7 +58,41 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5787d-3201-38e8-0000-e9a1001862e2",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/6f51d0bd-2de1-4544-b20d-1ae3d4721654",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:22:05.724399+00:00",
+    "row_count": 100000,
+    "current_import_row_count": 100000,
+    "size_in_bytes": 7541760,
+    "columns": [
+      {
+        "field_name": "article",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "department",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708135443_06f108a5-ec24-5a34-a96b-58afd98040ee"
   },
-  "_signature": "HfEuZcOVWXid8VITKmrqB/uO/4lAYI1lG2C6VVj+KgCg7x1DS1gIjBVpD4gWt+Tk+kU/EMTKR70+aHtQi9QIDQ=="
+  "finished_at": "2022-07-08T14:22:05.724577+00:00",
+  "_signature": "kv3NAv66KfGxajvcktrzPOq5uu5eSWQoBp4gQznpFUBO+FmbTlsvl1F4hN8mREmex82t1f2thWf3knnlP7DvDw=="
 }
