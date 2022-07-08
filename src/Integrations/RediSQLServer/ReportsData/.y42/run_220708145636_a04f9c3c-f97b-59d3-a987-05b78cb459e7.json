@@ -1,6 +1,6 @@
 {
   "request_id": "220708145636_a04f9c3c-f97b-59d3-a987-05b78cb459e7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -65,7 +65,71 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578a1-3201-38e7-0000-e9a100188326",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/b2552cc9-1a5e-4740-8aaf-03ace9cdd4f9",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:57:52.006519+00:00",
+    "row_count": 89,
+    "current_import_row_count": 89,
+    "size_in_bytes": 5632,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "iscmdsp",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "lasteditdate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "reportid",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "connection",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "user",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "creationdate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "query",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "notactive",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      }
+    ],
+    "table_name": "220708145636_a04f9c3c-f97b-59d3-a987-05b78cb459e7",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708145636_a04f9c3c-f97b-59d3-a987-05b78cb459e7"
   },
-  "_signature": "reOicx8Blih+p0dVRwNCZg8Ivff4AXBi3qoJLTHHN10sBFzbXDH8FluQ/CpXPgX5OP8bD+4sf8ooDnHm3TKMCg=="
+  "finished_at": "2022-07-08T14:57:52.006689+00:00",
+  "_signature": "GhGQ/VCdVPzWVPzOPM0mNurVFTbcP9kNs+Smf2ZWAJ2feS8hj9h/m4loi6rfnaJveXj0uL0SkYdwBevvQ3tSBg=="
 }
