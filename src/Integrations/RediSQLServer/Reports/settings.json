@@ -1,0 +1,21 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "Type",
+    "NOrder",
+    "DateStamp",
+    "FormNodeId",
+    "Report",
+    "ReportGroup",
+    "Modul",
+    "Description",
+    "Code",
+    "SelectLines",
+    "IsCmdSp",
+    "NotActive",
+    "ReportQuery",
+    "Id",
+    "No"
+  ],
+  "import": "BM15_dbo_Reports"
+}

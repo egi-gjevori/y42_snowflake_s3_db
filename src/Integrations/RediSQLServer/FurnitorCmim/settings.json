@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DATEEND",
+    "STARTROW",
+    "NRD",
+    "USI",
+    "NRDOK",
+    "TATIM",
+    "KODFRF",
+    "DATEDOK",
+    "DATECREATE",
+    "ORDERSCR",
+    "CMIMBS",
+    "USM",
+    "TAGNR",
+    "ACTIV",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "KOD",
+    "DATESTART",
+    "NJESI",
+    "NRRENDOR",
+    "PERSHKRIMRF"
+  ],
+  "import": "BM15_dbo_FurnitorCmim"
+}

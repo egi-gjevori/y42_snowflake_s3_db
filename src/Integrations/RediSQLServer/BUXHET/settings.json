@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "ID",
+    "LLOGARI_KOD",
+    "DEPARTAMENT_KOD",
+    "LISTE_KOD",
+    "MAGAZINA_KOD",
+    "BUXHET_KOD",
+    "VLERA",
+    "DATA"
+  ],
+  "import": "BM15_dbo_BUXHET"
+}

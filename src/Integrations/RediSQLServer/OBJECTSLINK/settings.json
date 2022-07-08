@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRD",
+    "USI",
+    "SHENIM",
+    "OBJEKTEXT",
+    "DATECREATE",
+    "OBJEKTPATHLOCATION",
+    "PDFOBJEKTEXT",
+    "USM",
+    "TAGNR",
+    "DATEEDIT",
+    "TABELA",
+    "PDFOBJEKTPATHLOADED",
+    "PERSHKRIM",
+    "OBJEKT",
+    "PDFOBJEKTPATHLOCATION",
+    "PDFOBJEKT",
+    "OBJEKTPATHLOADED",
+    "NOTACTIV",
+    "TROW",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_OBJECTSLINK"
+}

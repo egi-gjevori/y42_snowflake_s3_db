@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "NRDOK",
+    "SHENIM2",
+    "DATEDOKCREATE",
+    "DATEDOK",
+    "LISTORDEREDDQ",
+    "COLUMNLIST",
+    "LISTORDEREDMK",
+    "LISTORDERCOLMK",
+    "LISTORDEREDKL",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "KMAG",
+    "LISTORDERCOLKL",
+    "ORDERSTATUS",
+    "TROW",
+    "LISTORDERCOLDQ",
+    "KOD",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_OrderItems"
+}
