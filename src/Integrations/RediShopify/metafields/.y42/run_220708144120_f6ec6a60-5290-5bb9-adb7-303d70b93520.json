@@ -49,5 +49,33 @@
     }
   },
   "created_at": "2022-07-08T14:41:20.069468+00:00",
-  "_signature": "Q4BtuUyANqSsDv8stHucQQjqPpm8VIOKT40oFCW92mwzBwIB605DO/fuBML7BMFxnLMovcQxJPYso3sK65JRDw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T17:17:55.983655+00:00",
+    "external_state": {
+      "bookmarks": {
+        "metafield_collections": {
+          "updated_at": "2022-07-08T17:17:20.000000Z"
+        },
+        "metafield_customers": {
+          "updated_at": "2022-07-08T15:59:13.000000Z"
+        },
+        "metafield_orders": {
+          "updated_at": "2022-07-08T14:43:34.000000Z"
+        },
+        "metafield_products": {
+          "updated_at": "2022-07-08T16:58:48.000000Z"
+        },
+        "metafields": {
+          "updated_at": "2022-07-08T14:43:32.000000Z"
+        }
+      },
+      "schema_hash": "28da085bd6d9dc583c851521cb648fe6"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5792e-3201-38e6-0000-e9a1001874be",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/94df56fa-132c-4b18-b64d-6fa88ab58e77",
+    "partial": false
+  },
+  "_signature": "VDW0jLvr/1cmWeMPPSWLD2bY1RxexXVeDBJZk6IjRw/sz05e1JqpxS0u8w96M2f5r6B0eRJ+gaZqctGkINSYAw=="
 }
