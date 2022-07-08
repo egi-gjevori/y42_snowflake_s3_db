@@ -39,5 +39,25 @@
     }
   },
   "created_at": "2022-07-08T13:27:29.917486+00:00",
-  "_signature": "7WncKMx2WmLKpTTF1QafGpBjlGdcegxEtGkrEd+fU5FnRxIxN6f5VDNaR3hYSaIKOART6yv8Z/e3g9DZ4iLrAQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T13:28:14.007951+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-tracking": {
+          "last_replication_method": "INCREMENTAL",
+          "replication_key": "id",
+          "replication_key_value": 3,
+          "version": 1657286881290
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "8ec22d56ad608c2d88761256fb933e28"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57848-3201-38e7-0000-e9a10018827e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/f83e2dd1-45a4-4bdf-b131-f55070266dfe",
+    "partial": false
+  },
+  "_signature": "EP28F8jJVcnsXym37fuFxHYogstoyxeZylZWVun6psZ68gu5QtbbA9h7XNvAzoJRIxiyWpFvNYtUYy95+SjWCQ=="
 }
