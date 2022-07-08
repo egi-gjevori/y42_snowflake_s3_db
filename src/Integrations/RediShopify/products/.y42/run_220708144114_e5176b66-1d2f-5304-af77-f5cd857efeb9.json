@@ -1,6 +1,6 @@
 {
   "request_id": "220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -73,7 +73,101 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a57894-3201-38e6-0000-e9a10018735e",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/f23a37c9-613e-405f-b23b-392f936e3ef5",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:44:35.671786+00:00",
+    "row_count": 221,
+    "current_import_row_count": 221,
+    "size_in_bytes": 932352,
+    "columns": [
+      {
+        "field_name": "vendor",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "handle",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "options",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "published_scope",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "body_html",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "product_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "variants",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "template_suffix",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "images",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "image",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144114_e5176b66-1d2f-5304-af77-f5cd857efeb9"
   },
-  "_signature": "vtwihlq7UeqXxDlEK+WT8HPBAV077JgFN74Hlrb/4UzNlI71HTfwE7rd1EyVSChGjkbXx99PqNCqbBZal/xOAw=="
+  "finished_at": "2022-07-08T14:44:35.671912+00:00",
+  "_signature": "QUl0tu32+Z2QFrqKHX4Kd/jDu5GFKAvPtcYbLvzghqfLMTst/OZxAl/MlsFAK9PnsKMgxPEtlWSjsZDqJ7gfBQ=="
 }
