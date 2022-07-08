@@ -1,6 +1,6 @@
 {
   "request_id": "220708145636_fe3874b4-0a36-56fc-9c66-b20a784f1a83",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -74,7 +74,111 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578a1-3201-38e8-0000-e9a100186382",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/4741eae6-cf5e-4061-a135-12216389204d",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:57:54.023517+00:00",
+    "row_count": 1305,
+    "current_import_row_count": 1305,
+    "size_in_bytes": 278528,
+    "columns": [
+      {
+        "field_name": "vlera",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "error",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "errormessage",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kase",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "usm",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tcrcode",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "qellimi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "errortext",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "arke",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dateedit",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "datecreate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "tipi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "businessunit",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kmon",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "usi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708145636_fe3874b4-0a36-56fc-9c66-b20a784f1a83",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708145636_fe3874b4-0a36-56fc-9c66-b20a784f1a83"
   },
-  "_signature": "BJQFk4i8XS3ctPJQixw0eZq/d9qasxeT42U9d0FLHFH++yXWnn4mbs8nCjaVjY0pxca9e/UlsSJtOJMni8LKAA=="
+  "finished_at": "2022-07-08T14:57:54.023667+00:00",
+  "_signature": "IsfdNgqAfR+bQdxxAzXnubvQjQae8UNA/X1X9wHR+r/dUjXVnc+LVjskI920AOLVxxclM2ZXKybxHqc536TJBg=="
 }
