@@ -1,6 +1,6 @@
 {
   "request_id": "220708135442_a247037e-a9aa-5abf-b7c5-96d6123018de",
-  "status": "invalid",
+  "status": "pending",
   "request": {
     "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -82,5 +82,23 @@
   "failed_at": "2022-07-08T14:26:28.136714+00:00",
   "error_code": 500,
   "error_message": "import failed",
-  "_signature": "GMNHFULt5BVfYkRCBRoJ+UF60zvWI27dcVO9EztdvoWBohfJKFi68OFeVGJix4oPnLC7Nr973eiSrnbx1zXsAw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:33:16.834983+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-towns10k": {
+          "last_replication_method": "FULL_TABLE",
+          "version": 1657289115526
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "2b5dfb2ce3a0ac0d226b3d2ee65338c2"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57889-3201-38e7-0000-e9a1001882aa",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/d962d91f-c7d4-45fa-9f1f-a4b65e613fa8",
+    "partial": false
+  },
+  "_signature": "6R0rY2iYgLUoRslRUyJg5CTKZOgKlC25AtjPGCUamNRrWucypK7qYRi9T62Imj5eMnvXr6NasPO8lmN5v3YcBQ=="
 }
