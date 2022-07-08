@@ -1,6 +1,6 @@
 {
   "request_id": "220708083536_f873e6af-d2ef-5631-ac04-a64cd5fff42c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -73,7 +73,81 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a57963-3201-38e8-0000-e9a1001864e2",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-lever/fbb50032-a98a-4f93-b49f-e8b9a7922f19",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T18:11:35.046397+00:00",
+    "row_count": 27,
+    "current_import_row_count": 27,
+    "size_in_bytes": 11264,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "fields",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "signeddocument",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sentat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "creator",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "createdat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "posting",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "signatures",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "opportunity_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sentdocument",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "approved",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "approvedat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      }
+    ],
+    "table_name": "220708083536_f873e6af-d2ef-5631-ac04-a64cd5fff42c",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708083536_f873e6af-d2ef-5631-ac04-a64cd5fff42c"
   },
-  "_signature": "4VjDOlgBS7aLucinqu0r2jdbmDwcjKdAe/KNzf5xNv8CV7lAlhRGNCbC5Oiwx572U130CM7Mj7pdn2wpHFfNDw=="
+  "finished_at": "2022-07-08T18:11:35.046547+00:00",
+  "_signature": "l4ny0L7OeSDp617dt0RnMBzt1QJsnXyW/+Pr8W03MsjHQp45B40mvmNQRTxoexx6+EEC7U9JWav0oeSVf32OBw=="
 }
