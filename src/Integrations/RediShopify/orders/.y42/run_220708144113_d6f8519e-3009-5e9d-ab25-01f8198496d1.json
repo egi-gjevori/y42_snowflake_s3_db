@@ -1,6 +1,6 @@
 {
   "request_id": "220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -133,173 +133,28 @@
     "external_id": "01a578b1-3201-38e8-0000-e9a1001864c6",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/4e151009-f91b-4987-a53e-decb8df240b7",
     "partial": false,
-    "import_finished_at": "2022-07-08T15:12:52.141718+00:00",
+    "import_finished_at": "2022-07-08T15:13:21.469972+00:00",
     "row_count": 11507,
-    "current_import_row_count": 11506,
+    "current_import_row_count": 11507,
     "size_in_bytes": 9783296,
     "columns": [
       {
-        "field_name": "total_line_items_price",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "tax_lines",
+        "field_name": "customer_locale",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "token",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "source_name",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "order_adjustments",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "line_items",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "referring_site",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "shipping_address",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "checkout_token",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "cancelled_at",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "total_discounts",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "client_details",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "customer_id",
+        "field_name": "id",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "total_price",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "total_weight",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "contact_email",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "source_identifier",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "current_subtotal_price",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "name",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "total_tip_received",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "created_at",
+        "field_name": "processed_at",
         "data_type": "TIMESTAMP",
         "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "discount_codes",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "gateway",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
       },
       {
         "field_name": "landing_site_ref",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "email",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "payment_details",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "app_id",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "phone",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "taxes_included",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "cart_token",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "note",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "tags",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "customer_locale",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -309,22 +164,92 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "closed_at",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "buyer_accepts_marketing",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "cancel_reason",
+        "field_name": "billing_address",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "discount_applications",
+        "field_name": "source_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "token",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "source_identifier",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "shipping_lines",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "order_status_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "total_line_items_price",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "line_items",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "note_attributes",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "browser_ip",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "phone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "checkout_token",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "contact_email",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "total_weight",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "referring_site",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -334,89 +259,34 @@
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "shipping_lines",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "number",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "id",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "customer",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "billing_address",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "payment_gateway_names",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "updated_at",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "processing_method",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "order_number",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "user_id",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
         "field_name": "fulfillment_status",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "refunds",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "fulfillments",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "landing_site",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "financial_status",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "total_tax",
+        "field_name": "subtotal_price",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "taxes_included",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
         "field_name": "location_id",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "client_details",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
         "field_name": "current_total_price",
@@ -429,17 +299,67 @@
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "test",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "note_attributes",
+        "field_name": "payment_gateway_names",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "currency",
+        "field_name": "source_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reference",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cancelled_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "checkout_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "order_adjustments",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "buyer_accepts_marketing",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "landing_site",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "customer",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "discount_applications",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "current_subtotal_price",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "fulfillments",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -449,14 +369,59 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "subtotal_price",
+        "field_name": "number",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "shipping_address",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "discount_codes",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "financial_status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "total_discounts",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "browser_ip",
+        "field_name": "total_tip_received",
         "data_type": "STRING",
         "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "payment_details",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tax_lines",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "processing_method",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "closed_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
       },
       {
         "field_name": "confirmed",
@@ -464,27 +429,62 @@
         "external_data_type": "BOOLEAN"
       },
       {
-        "field_name": "processed_at",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "total_tax",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
       },
       {
-        "field_name": "order_status_url",
+        "field_name": "cart_token",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "checkout_id",
+        "field_name": "gateway",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "refunds",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "test",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "customer_id",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "reference",
+        "field_name": "note",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "source_url",
+        "field_name": "app_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "order_number",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "user_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "total_price",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cancel_reason",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       }
@@ -492,6 +492,6 @@
     "table_name": "220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1"
   },
-  "finished_at": "2022-07-08T15:12:52.141963+00:00",
-  "_signature": "FUW9Q7ZeYDa1gEN4LE36typAZHMS8BBko5gkwwbZmXEHl43R0ll83XIg0GziuPxNgBnsIONbu9T8thA3KkPkAQ=="
+  "finished_at": "2022-07-08T15:13:21.470188+00:00",
+  "_signature": "zuQrW+Mq/B6L09Zbw23YxbtuSbZeGXqFKJZEf7MgrlEN0ottx17NooW2BxuTRliSFwB+YHC10+aRW3PJQ8plAg=="
 }
