@@ -1,6 +1,6 @@
 {
   "request_id": "220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -120,18 +120,18 @@
   "created_at": "2022-07-08T14:41:13.326627+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-08T15:12:22.303688+00:00",
+    "export_finished_at": "2022-07-08T15:12:46.623115+00:00",
     "external_state": {
       "bookmarks": {
         "orders": {
-          "updated_at": "2022-07-08T14:43:29.000000Z"
+          "updated_at": "2022-07-08T14:42:38.000000Z"
         }
       },
       "schema_hash": "674ecca4754d94b996644c9be9e1174d"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a578b0-3201-38e7-0000-e9a10018841e",
-    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/686e0df2-e662-430f-bf83-ef8e3bb4603a",
+    "external_id": "01a578b1-3201-38e8-0000-e9a1001864c6",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/4e151009-f91b-4987-a53e-decb8df240b7",
     "partial": false,
     "import_finished_at": "2022-07-08T15:12:52.141718+00:00",
     "row_count": 11507,
@@ -493,5 +493,5 @@
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1"
   },
   "finished_at": "2022-07-08T15:12:52.141963+00:00",
-  "_signature": "tLezHMHoP4kWWW2nYqZju/sA1he5xwNjkO44hmX84nL9l9bRtvT8MLjLtufTyHzkhhqhEivNJvNnFoZl5nOOCQ=="
+  "_signature": "FUW9Q7ZeYDa1gEN4LE36typAZHMS8BBko5gkwwbZmXEHl43R0ll83XIg0GziuPxNgBnsIONbu9T8thA3KkPkAQ=="
 }
