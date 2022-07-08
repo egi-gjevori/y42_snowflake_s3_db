@@ -1,6 +1,6 @@
 {
   "request_id": "220708144121_d577bdd9-8753-55bb-9203-1df73ca39506",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -67,7 +67,71 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a57894-3201-38e6-0000-e9a10018733a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/452aabce-e178-4028-83de-a327d6a461d6",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:44:28.746276+00:00",
+    "row_count": 63,
+    "current_import_row_count": 63,
+    "size_in_bytes": 87040,
+    "columns": [
+      {
+        "field_name": "body_html",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "handle",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_scope",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sort_order",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "image",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "published_at",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "template_suffix",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144121_d577bdd9-8753-55bb-9203-1df73ca39506",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144121_d577bdd9-8753-55bb-9203-1df73ca39506"
   },
-  "_signature": "VVveXb5Il/WCUbU19caaZ4U2QCDgOuZPqljfRVzRsUugMRJ12izTaSWc4ypFPFXRRsqkG5Xgw4mB5dtlu4vsCQ=="
+  "finished_at": "2022-07-08T14:44:28.746418+00:00",
+  "_signature": "m0s+QU27z45g7CFjtD6R/3QqosZTBxAvNZ5u0BFFB2wEuXs+b+4FfTM4NEMfnptDs0gt5L5b1iKjQ2yqvt6HCA=="
 }
