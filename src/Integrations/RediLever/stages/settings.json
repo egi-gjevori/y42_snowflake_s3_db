@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "text"
+  ],
+  "import": "stages"
+}
