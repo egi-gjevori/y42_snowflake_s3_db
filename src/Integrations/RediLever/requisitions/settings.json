@@ -1,0 +1,30 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "requisitionCode",
+    "name",
+    "backfill",
+    "createdAt",
+    "creator",
+    "headcountHired",
+    "headcountTotal",
+    "status",
+    "hiringManager",
+    "owner",
+    "compensationBand",
+    "employmentStatus",
+    "location",
+    "internalNotes",
+    "postings",
+    "department",
+    "team",
+    "offerIds",
+    "customFields"
+  ],
+  "import": "requisitions",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

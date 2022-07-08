@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "opportunity_id",
+    "candidateId",
+    "type",
+    "posting",
+    "user",
+    "name",
+    "email",
+    "createdAt",
+    "phone",
+    "company",
+    "links",
+    "comments",
+    "resume",
+    "customQuestions",
+    "archived",
+    "postingHiringManager",
+    "postingOwner",
+    "requisitionForHire"
+  ],
+  "import": "opportunity_applications",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
