@@ -1,6 +1,6 @@
 {
   "request_id": "220708145635_0f0228ba-516e-5b8a-bbfa-631b9f292901",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -59,7 +59,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578a1-3201-38e6-0000-e9a1001873b2",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/a73ad092-7faf-4b86-8ad6-784f77a3e5d7",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:57:36.494149+00:00",
+    "row_count": 7,
+    "current_import_row_count": 7,
+    "size_in_bytes": 3072,
+    "columns": [
+      {
+        "field_name": "value",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "objectid",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "version",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "property",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "uvalue",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708145635_0f0228ba-516e-5b8a-bbfa-631b9f292901",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708145635_0f0228ba-516e-5b8a-bbfa-631b9f292901"
   },
-  "_signature": "z3C/ue+n9MQKkBjEzFv8RW2CMRjGJA+NXFVvvzkosV3gFYsbRELbshlWdjjpIoiISatSVD06rFBHqOWM578XDA=="
+  "finished_at": "2022-07-08T14:57:36.494291+00:00",
+  "_signature": "oCPFz9nGCpWZfYQmrKqYuK3l79fn1iMRdpFJvDFSNHoRakzhVuKtCtacViev8AJ9vcHoXlmWAw6J1vV1StJSCQ=="
 }
