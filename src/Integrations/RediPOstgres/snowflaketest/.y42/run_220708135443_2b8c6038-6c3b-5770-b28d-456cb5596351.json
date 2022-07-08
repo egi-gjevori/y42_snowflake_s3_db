@@ -79,5 +79,23 @@
     }
   },
   "created_at": "2022-07-08T13:54:43.829525+00:00",
-  "_signature": "ttjMIzhlETcRq4Dbozr/c7nqVYPx1tBL6ULh7d7agQim9BQbJcA6k2ysRLRH/mGKAUryZa+ivV0Tm6pCMkGMAQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T13:57:26.962836+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-snowflaketest": {
+          "last_replication_method": "FULL_TABLE",
+          "version": 1657288558871
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "866830317a76c92fd1ca900621a17d79"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57865-3201-38e6-0000-e9a1001872da",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/caea9b06-adb1-424c-bcf4-c3eee837e120",
+    "partial": false
+  },
+  "_signature": "hK+OEm9M4yrLMUA+N06IO6fFyCsb4F0JIqE4tz8XS5BxmVfjzlnhaDdX9qta2xxUnThUyGzHyNpuDOf5VE2zBA=="
 }
