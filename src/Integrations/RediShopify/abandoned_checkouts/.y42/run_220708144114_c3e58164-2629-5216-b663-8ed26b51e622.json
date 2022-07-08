@@ -1,0 +1,87 @@
+{
+  "request_id": "220708144114_c3e58164-2629-5216-b663-8ed26b51e622",
+  "status": "pending",
+  "request": {
+    "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2022-07-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "note_attributes",
+        "location_id",
+        "buyer_accepts_marketing",
+        "currency",
+        "completed_at",
+        "token",
+        "billing_address",
+        "email",
+        "discount_codes",
+        "customer_locale",
+        "created_at",
+        "updated_at",
+        "gateway",
+        "referring_site",
+        "source_identifier",
+        "total_weight",
+        "tax_lines",
+        "total_line_items_price",
+        "closed_at",
+        "device_id",
+        "phone",
+        "source_name",
+        "id",
+        "name",
+        "total_tax",
+        "subtotal_price",
+        "line_items",
+        "source_url",
+        "total_discounts",
+        "note",
+        "presentment_currency",
+        "shipping_lines",
+        "user_id",
+        "source",
+        "shipping_address",
+        "abandoned_checkout_url",
+        "landing_site",
+        "customer",
+        "total_price",
+        "cart_token",
+        "taxes_included"
+      ],
+      "import": "abandoned_checkouts",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-08T14:41:14.894130+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediShopify/abandoned_checkouts",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "242e618f54442bc5494824cf7d44642475743e11"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:41:14.894130+00:00",
+  "_signature": "zSAI5gSG8ssmbbdk62t6/OLlnTcrUxlWiOt0yllSSN6IEzHm41q6L+vGWiaRosBN23YknKY0o2LOhjsu6H4SDQ=="
+}
