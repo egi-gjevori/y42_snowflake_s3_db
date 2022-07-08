@@ -1,6 +1,6 @@
 {
   "request_id": "220708144113_3567d080-5cef-584e-9938-e8522f2428a3",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -77,9 +77,128 @@
       "schema_hash": "48afa72e6b356476560b001a1e42f0cd"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a57898-3201-38e7-0000-e9a1001882f2",
+    "external_id": "01a57898-3201-38e6-0000-e9a100187382",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/574b6255-f4dc-40bc-a1c6-7474b27bc3b8",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:48:49.660969+00:00",
+    "row_count": 11244,
+    "current_import_row_count": 11244,
+    "size_in_bytes": 3947008,
+    "columns": [
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "phone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "first_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "orders_count",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "total_spent",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "last_order_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "verified_email",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "multipass_identifier",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "last_order_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "last_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tax_exempt",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "default_address",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "accepts_marketing",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "addresses",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "note",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144113_3567d080-5cef-584e-9938-e8522f2428a3",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144113_3567d080-5cef-584e-9938-e8522f2428a3"
   },
-  "_signature": "rlC9pJocckwfAajzsdys5xX7ydHGm5lefg+4Efi1H37cCQscYfMvvPSVjZ0wAJ/myQR42LQq51Ly2xX26HltAg=="
+  "finished_at": "2022-07-08T14:48:49.661150+00:00",
+  "_signature": "IcC3pSn9tPAdY5cCpeN4ynj50NO3yzHLxXfIdRVOX5nK6svfPnC3q8Sej3aQ9MOWh7GC5pHMI34v5KeJ7+SuCA=="
 }
