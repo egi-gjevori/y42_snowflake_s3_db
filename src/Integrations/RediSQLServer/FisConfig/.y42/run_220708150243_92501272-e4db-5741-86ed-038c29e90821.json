@@ -1,6 +1,6 @@
 {
   "request_id": "220708150243_92501272-e4db-5741-86ed-038c29e90821",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -68,7 +68,96 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578a7-3201-38e7-0000-e9a1001883b2",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/3e30c491-2c5e-4b1b-931b-cc16c108bad5",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T15:03:50.475391+00:00",
+    "row_count": 30,
+    "current_import_row_count": 30,
+    "size_in_bytes": 6656,
+    "columns": [
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "grup",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "shenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "datecreate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vlera",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "usi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "shenim2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodorder",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dateedit",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "fusha",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "usm",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "klasifikim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708150243_92501272-e4db-5741-86ed-038c29e90821",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708150243_92501272-e4db-5741-86ed-038c29e90821"
   },
-  "_signature": "jse8yOTs2hrIgQzpUvfD0GJhPvjp0zocHRNaNqP5jlJ5hSyacJFwL1O5LwMw0Nnpa7RNIiW2iCtgDqGgpvn2DA=="
+  "finished_at": "2022-07-08T15:03:50.475557+00:00",
+  "_signature": "X31WyUDp8r2bM9KlCmOdaf0AgZnmrGnqCFp8WQb8edId/cxkrGmUfo94sa0pL8TY5uHcWcmySduCcsWMx819BQ=="
 }
