@@ -48,5 +48,21 @@
     }
   },
   "created_at": "2022-07-08T14:41:13.631066+00:00",
-  "_signature": "evw/KM7H7genJAYG1WH4C4RPlWjLZ69YpqE4d/3bfwgR9bXadtbywFGrUTd6iq6Y9WCcROq0HFhfB/ztsrsWBw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:43:48.334034+00:00",
+    "external_state": {
+      "bookmarks": {
+        "payouts": {
+          "updated_at": "2022-07-09T12:00:03.000000Z"
+        }
+      },
+      "schema_hash": "d884a197e33188548e3b924f9706d45f"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57893-3201-38e8-0000-e9a1001862fa",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/896cac2b-e8e5-4b46-b362-21cb0537e6f7",
+    "partial": false
+  },
+  "_signature": "6RHxmsehTRMtCj0HrjeJey1qDU1y7kru0gcLETfWcWGKJWzATac0BZvTCVkI3F6xqs0E3N3i5kSSmt/ZwNLTCg=="
 }
