@@ -42,5 +42,23 @@
     }
   },
   "created_at": "2022-07-08T13:54:43.541505+00:00",
-  "_signature": "nCQCWEzchRoAX72p78N4FMrpiK0uFrPVQKHlVA8aYCqRhtb9Xk2dN/17cdKE5XT5higECypsF1Nxnjc6qe2DAA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:21:48.845809+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-towns": {
+          "last_replication_method": "FULL_TABLE",
+          "version": 1657288562064
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "ffa0b6a8bccef59565d4d36a32007f13"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5787d-3201-38e8-0000-e9a1001862e2",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/6f51d0bd-2de1-4544-b20d-1ae3d4721654",
+    "partial": false
+  },
+  "_signature": "HfEuZcOVWXid8VITKmrqB/uO/4lAYI1lG2C6VVj+KgCg7x1DS1gIjBVpD4gWt+Tk+kU/EMTKR70+aHtQi9QIDQ=="
 }
