@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "ID",
+    "KOD",
+    "PERSHKRIM",
+    "PERFSHIN_TVSH",
+    "LEJO_SKONTO_RRESHT",
+    "LEJO_SKONTO_TOTAL",
+    "VAT_Business_Posting_Group"
+  ],
+  "import": "BM15_dbo_CSH_GRUP_KLIENTI"
+}

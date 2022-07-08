@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "ID",
+    "KOD",
+    "PERSHKRIM",
+    "DIMENSION1",
+    "DIMENSION2",
+    "DIMENSION3",
+    "DIMENSION4",
+    "AKTIV"
+  ],
+  "import": "BM15_dbo_BUXHET_EMRA"
+}

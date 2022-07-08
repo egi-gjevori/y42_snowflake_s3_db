@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TIP",
+    "USI",
+    "LLOGARIDB",
+    "DATECREATE",
+    "USM",
+    "TAGNR",
+    "DATEEDIT",
+    "KODTVSHEIC",
+    "PERSHKRIM",
+    "PERQINDJE",
+    "NOTACTIV",
+    "TROW",
+    "KOD",
+    "NRRENDOR",
+    "LLOGARIKR",
+    "KODTVSHFIC",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_KlasaTatim"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DatasetQuery",
+    "NOrder",
+    "InputName",
+    "InputType",
+    "Operation2",
+    "ComparisonField",
+    "Operation",
+    "DefaultValue2",
+    "NGroup",
+    "Label",
+    "DefaultValue",
+    "InputName2",
+    "ComparisonField2",
+    "ReportId",
+    "DoubleType",
+    "Id"
+  ],
+  "import": "BM15_dbo_ReportsFilters"
+}

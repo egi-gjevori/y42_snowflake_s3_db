@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "DATEDOK",
+    "DATECREATE",
+    "TIPI",
+    "KMON",
+    "BUSINESSUNIT",
+    "XML",
+    "ERROR",
+    "ARKE",
+    "USM",
+    "TAGNR",
+    "ERRORTEXT",
+    "DATEEDIT",
+    "KASE",
+    "TROW",
+    "TCRCODE",
+    "VLERA",
+    "ERRORMESSAGE",
+    "QELLIMI",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_LOGARKA"
+}
