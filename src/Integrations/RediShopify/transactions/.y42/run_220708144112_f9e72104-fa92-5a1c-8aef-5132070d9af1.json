@@ -57,5 +57,21 @@
     }
   },
   "created_at": "2022-07-08T14:41:12.439391+00:00",
-  "_signature": "0/MGxa+o2x0b5Rm+7Rse8xyp22K5e22d9YNaJH5OIGRb4rbxncmaR5htfgjF69ryO+EeEz56R2AuC+ea2ZVuCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T15:08:38.398060+00:00",
+    "external_state": {
+      "bookmarks": {
+        "orders": {
+          "updatedAt": "2022-07-08T14:41:29.000000Z"
+        }
+      },
+      "schema_hash": "bb3403efd077f9173c8558662578102c"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a578ac-3201-38e6-0000-e9a10018747a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/8ec51c67-49d8-4b76-80e9-39111e417e0a",
+    "partial": false
+  },
+  "_signature": "lwZnwnrNgZ/Dq58zLtmTymcYyDBDdWentX0bWbSnISyz0HIUGVOs203CyRe6AorZTbaCwj+bGGiDrnBcH6XXDg=="
 }
