@@ -1,6 +1,6 @@
 {
   "request_id": "220708150243_fd16d530-5edb-5187-8155-6ab851a9088b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -69,7 +69,91 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578a7-3201-38e8-0000-e9a10018646a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/0ad6721e-a4c5-446c-957d-e2e32d7b17bc",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T15:03:50.595444+00:00",
+    "row_count": 5,
+    "current_import_row_count": 5,
+    "size_in_bytes": 19968,
+    "columns": [
+      {
+        "field_name": "norder",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "report",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "datestamp",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "iscmdsp",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "formnodeid",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "notactive",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "modul",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reportquery",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "selectlines",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "no",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reportgroup",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708150243_fd16d530-5edb-5187-8155-6ab851a9088b",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708150243_fd16d530-5edb-5187-8155-6ab851a9088b"
   },
-  "_signature": "JNF3wOMVRa+wXim5YqJYU7JQB3bM+ZaXkl+ItdzKzg/6IdYyvuGI21+3U32oCKS0D1Is+PBm1GPPCo2xhjf0BQ=="
+  "finished_at": "2022-07-08T15:03:50.595590+00:00",
+  "_signature": "v0RdYoWu2IkPCJqcLUnR9V52JkBAsK6yBw3ybLzd3W+Fj3g4VhTnyTRxB1+xczIH3qiWgeoPn6yeITWeb9RQCw=="
 }
