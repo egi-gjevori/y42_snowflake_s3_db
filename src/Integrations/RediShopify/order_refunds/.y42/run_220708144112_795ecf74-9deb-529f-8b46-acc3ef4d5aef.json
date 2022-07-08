@@ -1,6 +1,6 @@
 {
   "request_id": "220708144112_795ecf74-9deb-529f-8b46-acc3ef4d5aef",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -65,7 +65,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a578b4-3201-38e8-0000-e9a1001864ca",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/3fd44db1-7f1e-4bf7-9d13-89ca33b0b68a",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T15:16:09.327082+00:00",
+    "row_count": 3084,
+    "current_import_row_count": 3084,
+    "size_in_bytes": 289792,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "totalrefundedset",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "note",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "updatedat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "parentid",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "refundlineitems",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "createdat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "duties",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "legacyresourceid",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220708144112_795ecf74-9deb-529f-8b46-acc3ef4d5aef",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144112_795ecf74-9deb-529f-8b46-acc3ef4d5aef"
   },
-  "_signature": "XvJscrKSLIsJCopFFwLofdeK7ux8cW3L8vQi9zOc1gnS9Gp9eSpQmnpbyHz7LHgezQgiWdXR+6htzUBTHslQBA=="
+  "finished_at": "2022-07-08T15:16:09.327226+00:00",
+  "_signature": "s/dlYmN1oqYKNSXSiyaLXD6SmKPSPXsyyB0zdrYsh/9OKwNggqNoxBVzhAld2vauA8V5ChlUxoXoCsivAXRADA=="
 }
