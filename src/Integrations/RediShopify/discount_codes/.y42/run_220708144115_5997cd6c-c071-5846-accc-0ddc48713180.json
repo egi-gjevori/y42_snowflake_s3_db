@@ -1,6 +1,6 @@
 {
   "request_id": "220708144115_5997cd6c-c071-5846-accc-0ddc48713180",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "99c6f2f5-2548-486b-b36f-97aa08bf71c3",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -58,7 +58,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5789c-3201-38e7-0000-e9a1001882fe",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/4aa7640c-832c-4d2c-86e2-ba80193dd212",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-08T14:52:27.074584+00:00",
+    "row_count": 148620,
+    "current_import_row_count": 148620,
+    "size_in_bytes": 4225024,
+    "columns": [
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "usage_count",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "price_rule_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220708144115_5997cd6c-c071-5846-accc-0ddc48713180",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144115_5997cd6c-c071-5846-accc-0ddc48713180"
   },
-  "_signature": "anzTM9gPkCBI0j/tIFiELppSjMaIHpeXrxqwQ58tPgm6l1yNuKKNqybUOaOjmY7bYYVx4MOcIPlSb/CoTGCSDQ=="
+  "finished_at": "2022-07-08T14:52:27.074744+00:00",
+  "_signature": "dp1fU7JDihW2tRmCafby4iQ704uI0dDonRZcjWPlgDHltqq+SvCzJyveHYnuYarBSQKk+1Fwmr2yfqLbQDAgDg=="
 }
