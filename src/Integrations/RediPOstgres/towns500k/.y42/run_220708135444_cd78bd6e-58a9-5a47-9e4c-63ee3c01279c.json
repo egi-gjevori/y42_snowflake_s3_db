@@ -1,0 +1,83 @@
+{
+  "request_id": "220708135444_cd78bd6e-58a9-5a47-9e4c-63ee3c01279c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "code",
+        "article",
+        "name",
+        "name1",
+        "name2",
+        "name3",
+        "name4",
+        "name5",
+        "name6",
+        "name7",
+        "name8",
+        "name9",
+        "name10",
+        "name11",
+        "name12",
+        "name13",
+        "name14",
+        "name15",
+        "name16",
+        "name17",
+        "name18",
+        "name19",
+        "name20",
+        "name21",
+        "name22",
+        "name23",
+        "name24",
+        "name25",
+        "name26",
+        "name27",
+        "name28",
+        "name30",
+        "name31",
+        "name32",
+        "name33",
+        "name34",
+        "name35",
+        "name36",
+        "name37",
+        "name38",
+        "department"
+      ],
+      "import": "postgres-public-towns500k"
+    },
+    "created_at": "2022-07-08T13:54:44.101297+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/towns500k",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "dc25b767e67d69ebac228b5d2964b417123c3d74"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T13:54:44.101297+00:00",
+  "_signature": "rSM38hKmWV8I1GgKCxUHbdrRvRChp4+y8GxKU1xQgQRaHQf8K2T6zpk8nlvATqdSO9zVDp/22yVQ5WYu2RaTBA=="
+}
