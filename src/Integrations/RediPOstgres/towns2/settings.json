@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+  "columns": [
+    "id",
+    "code",
+    "article",
+    "name",
+    "department"
+  ],
+  "import": "postgres-public-towns2"
+}

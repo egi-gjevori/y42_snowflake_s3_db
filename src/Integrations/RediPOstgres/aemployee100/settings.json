@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+  "columns": [
+    "emp_id",
+    "date_of_birth",
+    "salary",
+    "emp_name"
+  ],
+  "import": "postgres-public-aemployee100"
+}

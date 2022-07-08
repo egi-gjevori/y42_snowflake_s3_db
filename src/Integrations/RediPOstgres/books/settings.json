@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+  "columns": [
+    "id",
+    "title",
+    "attr"
+  ],
+  "import": "postgres-public-books",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

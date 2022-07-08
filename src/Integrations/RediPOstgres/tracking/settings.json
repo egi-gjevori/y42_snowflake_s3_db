@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+  "columns": [
+    "id",
+    "valid_range"
+  ],
+  "import": "postgres-public-tracking"
+}
