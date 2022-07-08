@@ -130,12 +130,12 @@
       "schema_hash": "674ecca4754d94b996644c9be9e1174d"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a578b0-3201-38e7-0000-e9a100188422",
+    "external_id": "01a578b0-3201-38e7-0000-e9a10018841e",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/686e0df2-e662-430f-bf83-ef8e3bb4603a",
     "partial": false,
-    "import_finished_at": "2022-07-08T15:12:52.024242+00:00",
+    "import_finished_at": "2022-07-08T15:12:52.141718+00:00",
     "row_count": 11507,
-    "current_import_row_count": 11507,
+    "current_import_row_count": 11506,
     "size_in_bytes": 9783296,
     "columns": [
       {
@@ -492,6 +492,6 @@
     "table_name": "220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220708144113_d6f8519e-3009-5e9d-ab25-01f8198496d1"
   },
-  "finished_at": "2022-07-08T15:12:52.024463+00:00",
-  "_signature": "6IhjnOGFls/Nprq2cpOEqyXC/AjAG8743O/38j6tTtuR1Q0SdFDjzR0ZsLmqq0itZUMy+ZJWLwPE++ai/defDw=="
+  "finished_at": "2022-07-08T15:12:52.141963+00:00",
+  "_signature": "tLezHMHoP4kWWW2nYqZju/sA1he5xwNjkO44hmX84nL9l9bRtvT8MLjLtufTyHzkhhqhEivNJvNnFoZl5nOOCQ=="
 }
