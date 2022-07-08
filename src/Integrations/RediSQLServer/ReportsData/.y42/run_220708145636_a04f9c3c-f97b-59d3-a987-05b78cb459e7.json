@@ -1,0 +1,52 @@
+{
+  "request_id": "220708145636_a04f9c3c-f97b-59d3-a987-05b78cb459e7",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "User",
+        "Query",
+        "Description",
+        "LastEditDate",
+        "Connection",
+        "CreationDate",
+        "Code",
+        "IsCmdSp",
+        "NotActive",
+        "ReportId",
+        "Id"
+      ],
+      "import": "BM15_dbo_ReportsData"
+    },
+    "created_at": "2022-07-08T14:56:36.272001+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/ReportsData",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "6fa8b9cba7bf2cadf3a55df1b6f9f6ae41509783"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:56:36.272001+00:00",
+  "_signature": "tM76RV6p7Nnv+uhHHlehEXB4jV/hPkrkkkxn62BdMouf1iww/bF0dFaArlfnVErY9XpyMqz4oncLWrvsAOfKAw=="
+}
