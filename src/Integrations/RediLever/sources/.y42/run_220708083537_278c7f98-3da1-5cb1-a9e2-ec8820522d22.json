@@ -1,0 +1,44 @@
+{
+  "request_id": "220708083537_278c7f98-3da1-5cb1-a9e2-ec8820522d22",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/source.json",
+      "start_date": "2021-07-08T09:57:28Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+      "columns": [
+        "text",
+        "count"
+      ],
+      "import": "sources"
+    },
+    "created_at": "2022-07-08T08:35:37.955622+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediLever/sources",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "8b6cd4717672ab8a5342724f622062ae2d8bbee1"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T08:35:37.955622+00:00",
+  "_signature": "jicSJvZkkodpRj24Qok0nh5qoYKH0nve5F9DETqNhuWRUVVKgPOR+mxseETRRZY0dcv+kOuoFhA5rnovBjGCDg=="
+}
