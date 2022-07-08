@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "published_at",
+    "created_at",
+    "published_scope",
+    "vendor",
+    "updated_at",
+    "body_html",
+    "product_type",
+    "tags",
+    "options",
+    "image",
+    "handle",
+    "images",
+    "template_suffix",
+    "title",
+    "variants",
+    "admin_graphql_api_id",
+    "id"
+  ],
+  "import": "products",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}

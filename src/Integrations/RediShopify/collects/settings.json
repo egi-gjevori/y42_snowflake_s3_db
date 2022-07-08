@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "id",
+    "collection_id",
+    "created_at",
+    "position",
+    "product_id",
+    "sort_value",
+    "updated_at"
+  ],
+  "import": "collects"
+}

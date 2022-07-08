@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "available",
+    "inventory_item_id",
+    "location_id",
+    "updated_at"
+  ],
+  "import": "inventory_levels"
+}
