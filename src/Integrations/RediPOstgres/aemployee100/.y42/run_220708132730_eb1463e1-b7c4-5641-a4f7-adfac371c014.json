@@ -1,0 +1,45 @@
+{
+  "request_id": "220708132730_eb1463e1-b7c4-5641-a4f7-adfac371c014",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "emp_id",
+        "date_of_birth",
+        "salary",
+        "emp_name"
+      ],
+      "import": "postgres-public-aemployee100"
+    },
+    "created_at": "2022-07-08T13:27:30.193852+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/aemployee100",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "e58f8202ae1f94954f14dbbeade18561dddf2e1c"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T13:27:30.193852+00:00",
+  "_signature": "vNXbhKzk6/IEAyHO+XcyOqGwlyh0faxcpI5JqB213lfczlKW2t7t15rwCOg2Xa8FocJih2/9apUYZ9eZCUDEBw=="
+}
