@@ -52,5 +52,21 @@
     }
   },
   "created_at": "2022-07-08T14:41:15.392786+00:00",
-  "_signature": "uvaIQLXqjwbzXVpoc/q5uF8WlIypLwZxw5vcmpL/2IFFa4jFwkHQvbYO86eI/jsuVEKGVq5BIq1Dc4l3iBGZCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-08T14:44:16.370438+00:00",
+    "external_state": {
+      "bookmarks": {
+        "balance_transactions": {
+          "updated_at": "2022-07-09T12:00:03.000000Z"
+        }
+      },
+      "schema_hash": "32286736b2a1814ba5d9e1ac2c9c6e96"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a57894-3201-38e8-0000-e9a100186322",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-shopify/57b960d0-7080-4452-91bc-b7b90aacdf79",
+    "partial": false
+  },
+  "_signature": "3c/H7QEo+meR8ILObo5bYIEFsRC+Q8xswJFiCwaoDtF1skvWU8MXPrKDfoy5s5NypFlYJ4lZk3Y4MvMogN+yAQ=="
 }
