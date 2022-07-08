@@ -1,0 +1,59 @@
+{
+  "request_id": "220708145635_064110ac-be9f-5d48-9ae2-af54e00ddbe2",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "FisPDF",
+        "DateReg",
+        "DATECREATE",
+        "Tipi",
+        "Status",
+        "TAGNR",
+        "Vlera",
+        "DATEEDIT",
+        "DateDok",
+        "PERSHKRIM",
+        "NrDok",
+        "PartyType",
+        "NrRendorStatus",
+        "TROW",
+        "FisEIC",
+        "NIPT",
+        "NRRENDOR",
+        "TimeReg"
+      ],
+      "import": "BM15_dbo_FisStatusFF"
+    },
+    "created_at": "2022-07-08T14:56:35.640453+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/FisStatusFF",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "6fa8b9cba7bf2cadf3a55df1b6f9f6ae41509783"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:56:35.640453+00:00",
+  "_signature": "T5JEBFsU4Vb0PEk8q4kg7FYI4Q+ClQUpKDFQGbDFZhetEzfDTT0+tN1hB7cYH65uDpN2tVtISNQo80K3a8EtAg=="
+}
