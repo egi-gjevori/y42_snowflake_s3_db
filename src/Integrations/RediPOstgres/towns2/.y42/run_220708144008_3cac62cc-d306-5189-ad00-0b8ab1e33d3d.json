@@ -1,0 +1,46 @@
+{
+  "request_id": "220708144008_3cac62cc-d306-5189-ad00-0b8ab1e33d3d",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "code",
+        "article",
+        "name",
+        "department"
+      ],
+      "import": "postgres-public-towns2"
+    },
+    "created_at": "2022-07-08T14:40:08.136398+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/towns2",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "ae434d151348eddede0d2b8ef8fb8d80b43001e3"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-08T14:40:08.136398+00:00",
+  "_signature": "7lB2YZ4hy9OrQWx0vDPuCQlVBD69AR+JquGu3AVx2e4uDdgWtft2LZYM/2g78sEBPrlqpRZLG9QK1jFEcA9rDA=="
+}
