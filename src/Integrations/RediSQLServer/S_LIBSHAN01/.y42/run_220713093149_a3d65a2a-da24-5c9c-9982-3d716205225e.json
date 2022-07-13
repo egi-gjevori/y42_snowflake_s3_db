@@ -1,6 +1,6 @@
 {
   "request_id": "220713093149_a3d65a2a-da24-5c9c-9982-3d716205225e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -76,7 +76,136 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a59381-3201-3a5e-0000-e9a10018c146",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/26fb6d4d-7317-47a6-832a-a5b5104c6ee0",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:37:28.907478+00:00",
+    "row_count": 206757,
+    "current_import_row_count": 206757,
+    "size_in_bytes": 6892032,
+    "columns": [
+      {
+        "field_name": "kurs2",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "dtdokdg",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kurs1",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "shenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "isdg",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "nrdshoq",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "rrethi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vltvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "nipt",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrdokdg",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vlpatvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kodfkl",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrserial",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "isdokshoq",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "klasifikim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vlerzbr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "vlertot",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kmon",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "perqtvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kodfiskal",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dtdshoq",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kmag",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713093149_a3d65a2a-da24-5c9c-9982-3d716205225e",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713093149_a3d65a2a-da24-5c9c-9982-3d716205225e"
   },
-  "_signature": "jCEe+6hjvfq2FJFabRS8lzwevC4jVC0Nwc3c7wIPu9MAp7qJ2rMQYKEG2UyTphvH/yK/pB39kg8idU7UGh4UDg=="
+  "finished_at": "2022-07-13T09:37:28.907620+00:00",
+  "_signature": "S3slY9GDgk2ZObjKWWhG6fcU3VyeabTlj/wB9gSNX026+4+ecXVl+kpV59qHFJV9bPavaJoH3ofYh0tUQJ+ADw=="
 }
