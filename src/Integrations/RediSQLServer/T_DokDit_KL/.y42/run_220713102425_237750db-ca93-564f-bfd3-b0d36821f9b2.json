@@ -1,0 +1,44 @@
+{
+  "request_id": "220713102425_237750db-ca93-564f-bfd3-b0d36821f9b2",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NRRENDOR",
+        "NRDITAR",
+        "TIPD"
+      ],
+      "import": "BM15_dbo_T_DokDit_KL"
+    },
+    "created_at": "2022-07-13T10:24:25.524175+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/T_DokDit_KL",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "91114c623a204b8daf72124511fe7fd95af457bb"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:25.524175+00:00",
+  "_signature": "irkwGIdvA88dfc8gOYll7SL5SjmVnr5GulE3o3VVLEcae5QADwemlW547oG6GhGELUin0SuBnfzQO3txx98pDQ=="
+}
