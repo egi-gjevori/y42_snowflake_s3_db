@@ -1,6 +1,6 @@
 {
   "request_id": "220713102421_ca9f5dd4-0367-5713-ac86-9d01bc4883df",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -61,7 +61,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b3-3201-3a5c-0000-e9a10018b346",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/c7dab9b7-1256-4cc4-aa72-fb3652b6c063",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:27:50.841837+00:00",
+    "row_count": 229,
+    "current_import_row_count": 229,
+    "size_in_bytes": 5120,
+    "columns": [
+      {
+        "field_name": "reference",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "kufip",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kufis",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "modul",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tipdok",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodus",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102421_ca9f5dd4-0367-5713-ac86-9d01bc4883df",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102421_ca9f5dd4-0367-5713-ac86-9d01bc4883df"
   },
-  "_signature": "3LMYEiuat+1LCCW/IhtCKw7JCkKOlIo3N5z0Sq8W9WZP3CWZ4J/8L15u9D46sT93DmSlDGqss53QrhMeeGP5CQ=="
+  "finished_at": "2022-07-13T10:27:50.841942+00:00",
+  "_signature": "m8cCRc/D7YttkGJgQXVjwvJuYvZufuHqCnr7mjXaRL/ES1xguobm5ULnOvBwZ/H0QwsEUZvVziyjhUEB85rXAQ=="
 }
