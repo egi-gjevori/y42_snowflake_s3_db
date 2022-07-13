@@ -1,6 +1,6 @@
 {
   "request_id": "220713093200_1df7c3d4-672d-580e-a42d-977012db45e7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -54,7 +54,26 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5937f-3201-3a5c-0000-e9a10018b0ae",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/59cb5644-ff7f-4649-8cfd-9845f71e71cf",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:35:38.785557+00:00",
+    "row_count": 6529,
+    "current_import_row_count": 6529,
+    "size_in_bytes": 52224,
+    "columns": [
+      {
+        "field_name": "sasia",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "bc",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713093200_1df7c3d4-672d-580e-a42d-977012db45e7",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713093200_1df7c3d4-672d-580e-a42d-977012db45e7"
   },
-  "_signature": "XEOmlcK/rl32Ui/8wB7Hyuw908Um+1juyCQ/rCngO1yp5dbYIdqvj+1DwTg5aYQcyEVtUB8fsh8IRZ5X889ADQ=="
+  "finished_at": "2022-07-13T09:35:38.785664+00:00",
+  "_signature": "9fJpCe0/cM45d7Z6ce63tMSvRTt5RxOkF124vqsSwCCozhFLPwAFzdF13w5rbi+rupu5yz9BBkEIkQHvE2d0AQ=="
 }
