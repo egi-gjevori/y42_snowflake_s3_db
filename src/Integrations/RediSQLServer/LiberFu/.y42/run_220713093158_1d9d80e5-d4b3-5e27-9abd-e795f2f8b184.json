@@ -98,5 +98,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:58.092768+00:00",
-  "_signature": "ggqoI1lYGTFcobkr8zOUFPofmxjNPGfnEoJa9/5ZmldN4MFA1hWTokviJeKNeCHzt4s0Q9xD1agXqvCpLsMCBQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:38:16.491957+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_LiberFu": {
+          "version": 1657704902446
+        }
+      },
+      "currently_syncing": "BM15_dbo_LiberFu",
+      "schema_hash": "d06a42ad92dced66d14c16a7bbeae029"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59382-3201-3a5e-0000-e9a10018c16a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/bd946e49-4a60-4b43-a17b-9c32671b4f91",
+    "partial": false
+  },
+  "_signature": "lqs+iWb+EgQtdm8wxIAflkFPQIo9LW0r6avJrajCdark3gnW30mVPRUON8D7lDIgEeM0g8V0t/X53LVzjtILBA=="
 }
