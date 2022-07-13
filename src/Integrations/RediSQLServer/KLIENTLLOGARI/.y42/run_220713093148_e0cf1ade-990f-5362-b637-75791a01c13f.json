@@ -63,5 +63,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:48.801376+00:00",
-  "_signature": "l+etIG9xK0MaPa8iNiA2TSrDp3r7SPtOUZWUOBtzjCzOG1Pzz/lBF1Uk9/I82SGG45vh0DaRNnHqecQitwl9BQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:59:46.190806+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_KLIENTLLOGARI": {
+          "version": 1657704759240
+        }
+      },
+      "currently_syncing": "BM15_dbo_KLIENTLLOGARI",
+      "schema_hash": "9d84559491622bc9534066e0b0fe4c45"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59397-3201-3a5e-0000-e9a10018c1d6",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/917441a0-8874-4fe4-80b8-fe729c6e6cda",
+    "partial": false
+  },
+  "_signature": "EL9aGECl/i3MiyaMIWybMteea50IqaCHK8WcC6tMCggQfTbG+eB8+sSQunEyZdm0qD0DtE51KTdMChaUfc3RBQ=="
 }
