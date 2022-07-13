@@ -1,0 +1,56 @@
+{
+  "request_id": "220713102425_11ec6665-dd4c-576a-825c-ef9a63670791",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "kodkase",
+        "KARTE",
+        "zbritjeart",
+        "PIKE",
+        "VOUCHER",
+        "artikulli",
+        "karteklienti",
+        "perqtvsh",
+        "NRRENDORART",
+        "cmshzb0",
+        "sasi",
+        "zbritjefat",
+        "CASHPARESTO",
+        "NRRENDOR",
+        "CASH"
+      ],
+      "import": "BM15_dbo_KASAFISKALE"
+    },
+    "created_at": "2022-07-13T10:24:25.968867+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/KASAFISKALE",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "91114c623a204b8daf72124511fe7fd95af457bb"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:25.968867+00:00",
+  "_signature": "iBEr/Kedi4oQg7mNVE+/2jtipsOrSIKL/jDJHqom0le+2480hRM3R4x7kZ0YR0aKsaClRhu2M98pLcnfo93NDQ=="
+}
