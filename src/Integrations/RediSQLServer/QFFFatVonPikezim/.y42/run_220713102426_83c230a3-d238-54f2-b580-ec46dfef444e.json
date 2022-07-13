@@ -1,6 +1,6 @@
 {
   "request_id": "220713102426_83c230a3-d238-54f2-b580-ec46dfef444e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -79,33 +79,38 @@
     "external_id": "01a593b7-3201-3a5c-0000-e9a10018b46e",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/8c3256e2-22bd-491e-965f-31c3ad82daf5",
     "partial": false,
-    "import_finished_at": "2022-07-13T10:28:47.626305+00:00",
-    "row_count": 129513,
-    "current_import_row_count": 129513,
-    "size_in_bytes": 5985792,
+    "import_finished_at": "2022-07-13T10:31:07.888306+00:00",
+    "row_count": 129514,
+    "current_import_row_count": 129514,
+    "size_in_bytes": 5986304,
     "columns": [
       {
-        "field_name": "kod",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
+        "field_name": "dif",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
       },
       {
-        "field_name": "nrdok",
+        "field_name": "ditevon",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "dtfat",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "kmag",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
-        "field_name": "dtpagese",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "vendndodhje",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
-        "field_name": "klasifikim1",
+        "field_name": "kmon",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "agjentshitje",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -115,57 +120,7 @@
         "external_data_type": "TIMESTAMP_NTZ"
       },
       {
-        "field_name": "kmon",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "emertim",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "dif",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "difmv",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "vendndodhje",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "vl",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "kmag",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "ditevon",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "tregdk",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
         "field_name": "klasifikim3",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nrfat",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -175,27 +130,7 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "datedok",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "klasifikim2",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "vlmv",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "kodrf",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "kategori",
+        "field_name": "nipt",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -205,12 +140,77 @@
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "agjentshitje",
+        "field_name": "difmv",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "dtpagese",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "nrdok",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "emertim",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "nipt",
+        "field_name": "vlmv",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "tregdk",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodrf",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "klasifikim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vl",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "klasifikim2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dtfat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kategori",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrfat",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       }
@@ -218,6 +218,6 @@
     "table_name": "220713102426_83c230a3-d238-54f2-b580-ec46dfef444e",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102426_83c230a3-d238-54f2-b580-ec46dfef444e"
   },
-  "finished_at": "2022-07-13T10:28:47.626439+00:00",
-  "_signature": "Ap7XkkySWzBk6opINvw5C87sN9VoJudHEvGU6O98kdj3+vSOUN/wWkOKbj9b6LA6ePSCwRkX+fw4U0cxWbobDw=="
+  "finished_at": "2022-07-13T10:31:07.888436+00:00",
+  "_signature": "y//nJu7mSMo+0PcXy7YZX+zKNu7rm7GmAfn1q7GR3ngG2yYqlgkuJkCdc4koJohunDHoxFo8cNNce3EiKEOHDg=="
 }
