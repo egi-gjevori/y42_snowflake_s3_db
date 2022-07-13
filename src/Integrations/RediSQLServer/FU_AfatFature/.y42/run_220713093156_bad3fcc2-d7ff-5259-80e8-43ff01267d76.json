@@ -1,0 +1,58 @@
+{
+  "request_id": "220713093156_bad3fcc2-d7ff-5259-80e8-43ff01267d76",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NRSERIAL",
+        "AFATPAGESE",
+        "VLERTOT",
+        "NRDOK",
+        "NRFATURE",
+        "DATEDOK",
+        "KMON",
+        "VLERTOTMB",
+        "DITEKALUAR",
+        "SHENIM1",
+        "KODFKL",
+        "TIPDOK",
+        "DATEFATURE",
+        "DITEPAGESE",
+        "KOD",
+        "NIPT",
+        "NRRENDOR"
+      ],
+      "import": "BM15_dbo_FU_AfatFature"
+    },
+    "created_at": "2022-07-13T09:31:56.627532+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/FU_AfatFature",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "c5fb9419411d88fdc7b80e3c1e7dab2fe6385e7d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:31:56.627532+00:00",
+  "_signature": "eVBiN1mCjRMeVxTR1cCMSaNTWS0DaPfNEfr/Q36xHkS4BA1Iv4lY460DF6sVildxFQ9D5Itd7aZDLx/qDUHzBg=="
+}
