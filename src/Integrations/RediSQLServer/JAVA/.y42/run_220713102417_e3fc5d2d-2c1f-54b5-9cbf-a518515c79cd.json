@@ -1,6 +1,6 @@
 {
   "request_id": "220713102417_e3fc5d2d-2c1f-54b5-9cbf-a518515c79cd",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -56,11 +56,16 @@
     "external_id": "01a593b3-3201-3a5c-0000-e9a10018b31a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/37ad847c-c3fd-4996-8e5d-6b3a76570259",
     "partial": false,
-    "import_finished_at": "2022-07-13T10:25:43.983472+00:00",
+    "import_finished_at": "2022-07-13T10:27:40.209860+00:00",
     "row_count": 7,
     "current_import_row_count": 7,
     "size_in_bytes": 1536,
     "columns": [
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
       {
         "field_name": "kod",
         "data_type": "FLOAT",
@@ -70,16 +75,11 @@
         "field_name": "nrrendor",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "pershkrim",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
       }
     ],
     "table_name": "220713102417_e3fc5d2d-2c1f-54b5-9cbf-a518515c79cd",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102417_e3fc5d2d-2c1f-54b5-9cbf-a518515c79cd"
   },
-  "finished_at": "2022-07-13T10:25:43.983659+00:00",
-  "_signature": "2trZEWW6dxn3MhaADuNOWgQDOcOUSggOA2E0UVBOl0bvpZ4upv7AagJ/5KFEgBiuEjRwD6UeXgdB0u4mgvb1BA=="
+  "finished_at": "2022-07-13T10:27:40.210005+00:00",
+  "_signature": "WaVKaOOydCgl7XztNKIsOlQiktEf0WICvYuxTDLLt4zAp6hX9NLbDJOoTxzCo78IGRjTevwHmYyd3j7Is447Dw=="
 }
