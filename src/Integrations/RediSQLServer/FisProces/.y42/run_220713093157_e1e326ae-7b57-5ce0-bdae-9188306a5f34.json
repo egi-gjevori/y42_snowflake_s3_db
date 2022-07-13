@@ -54,5 +54,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:57.670917+00:00",
-  "_signature": "EEvRlOb/T115MEgCJpM/HKziCo3trl5FX6MlDItP6ZWWcCayatuX9W9zHYKfPgMUFNTwnwLmWL+j9jqtHj9zBg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:35:10.618500+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_FisProces": {
+          "version": 1657704888452
+        }
+      },
+      "currently_syncing": "BM15_dbo_FisProces",
+      "schema_hash": "6c78fb249a7446bf5583a60685e3c514"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5937f-3201-3a5d-0000-e9a10018a096",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/85cb03b4-dd82-46a3-b699-409d7f4ae5cd",
+    "partial": false
+  },
+  "_signature": "fLqNwb4xLUnW7C3g+ZYgAfSdzu6PxZpmG6LCpKNEPNfN2FDzcQrhjiEBFI3yMOmTbGUW4uYcmModAASVHjb6Cw=="
 }
