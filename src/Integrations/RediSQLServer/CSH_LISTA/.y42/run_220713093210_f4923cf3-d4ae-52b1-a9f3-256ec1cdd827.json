@@ -1,0 +1,60 @@
+{
+  "request_id": "220713093210_f4923cf3-d4ae-52b1-a9f3-256ec1cdd827",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "DATE_MBARIMI",
+        "DATE_FILLIMI",
+        "PRIORITET",
+        "PERFSHIN_TVSH",
+        "LEJO_SKONTO_RRESHT",
+        "KMON",
+        "CMIMI",
+        "VAT_Business_Posting_Group",
+        "TIP_CMIMI",
+        "BC",
+        "ID",
+        "TIP_SHITJE",
+        "KOD_SHITJE",
+        "SASIA_MINIMALE",
+        "IMPORTUAR",
+        "KOD",
+        "MARZHI",
+        "NJESI",
+        "LEJO_SKONTO_TOTAL"
+      ],
+      "import": "BM15_dbo_CSH_LISTA"
+    },
+    "created_at": "2022-07-13T09:32:10.815506+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/CSH_LISTA",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "99382abd893d426fdd917e7873069a6a950e17e4"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:32:10.815506+00:00",
+  "_signature": "6WlcM38suMwLKMiuOhnzQ5ffLKuJJyGxmD7cccugJbmz0ckc1p6qrbK4fvtaAeZgBX1E1rKBgNpyJgnVhdctDA=="
+}
