@@ -72,5 +72,24 @@
     }
   },
   "created_at": "2022-07-13T09:32:06.226844+00:00",
-  "_signature": "7bJMRiYmwBEAbvMPDKHF55uTvgeKxe2cM+39u7CLAOtF3BrmV0pS/TM290uYanlR797tAFvQ31LSB4NpEvO+Bg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:36:03.954562+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_DBA": {
+          "replication_key_name": "NRRENDOR",
+          "replication_key_value": 364808,
+          "version": 1657704902741
+        }
+      },
+      "currently_syncing": "BM15_dbo_DBA",
+      "schema_hash": "b55c738059e34258b87f121ff1798888"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59380-3201-3a5c-0000-e9a10018b0fe",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/dcfcab54-2902-47d6-a3ae-ed2aa36b0374",
+    "partial": false
+  },
+  "_signature": "Vs/gScO2Ubig/s+pIhfrc5EXntUQd1hxIkBpK6SYywbalqm8q0KzspLfN0IJFtRYfToCpC3X/LrRwmdS+JJmCA=="
 }
