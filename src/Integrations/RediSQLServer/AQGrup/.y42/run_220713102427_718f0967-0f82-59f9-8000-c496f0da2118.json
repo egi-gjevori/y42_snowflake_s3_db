@@ -62,13 +62,13 @@
       "schema_hash": "64c419ab60b4be700c54185f89d5f6ab"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a593b3-3201-3a5c-0000-e9a10018b322",
+    "external_id": "01a593b3-3201-3a5d-0000-e9a10018a302",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/9e206200-00ea-4b15-a13e-6bf89b4eb834",
     "partial": false,
-    "import_finished_at": "2022-07-13T10:27:40.967683+00:00",
-    "row_count": 0,
+    "import_finished_at": "2022-07-13T10:27:43.016479+00:00",
+    "row_count": 3,
     "current_import_row_count": 3,
-    "size_in_bytes": 0,
+    "size_in_bytes": 3072,
     "columns": [
       {
         "field_name": "pershkrim",
@@ -134,6 +134,6 @@
     "table_name": "220713102427_718f0967-0f82-59f9-8000-c496f0da2118",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102427_718f0967-0f82-59f9-8000-c496f0da2118"
   },
-  "finished_at": "2022-07-13T10:27:40.967817+00:00",
-  "_signature": "+vFwFiHXcVXSbH4tcuRjec5sW2dSUcyEpGm6pkVKOoCGg8MkamOFiAhF3jR5eqoUk0Pg1GL8LMaY6Vbq22m6AQ=="
+  "finished_at": "2022-07-13T10:27:43.016602+00:00",
+  "_signature": "DWVKuQl2QTqFsFdG4eMT7fpPLR+3m4v09cnPV7Yt0cIoXS53GK0ZVD8ROI1sltj37EpoDUZ8vjZBkcLWRb2iBQ=="
 }
