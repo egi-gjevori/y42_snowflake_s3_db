@@ -1,0 +1,43 @@
+{
+  "request_id": "220713093207_deba15d8-9a9a-5d9d-b8ad-4ad7674ad223",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "KOD",
+        "PERSHKRIM"
+      ],
+      "import": "BM15_dbo_CSH_PROMOCION_STATUS"
+    },
+    "created_at": "2022-07-13T09:32:07.513597+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/CSH_PROMOCION_STATUS",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "bf9a2ddd028e692321a86c6f0bcdc3fda6c49831"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:32:07.513597+00:00",
+  "_signature": "oVwL47EO616lGYg+Ij2cK0aPSbN32nALh24WP4DmjKA1dLcjvV55tzsWMv3im0ryZgLENzbtjH2VQW05MUhZCA=="
+}
