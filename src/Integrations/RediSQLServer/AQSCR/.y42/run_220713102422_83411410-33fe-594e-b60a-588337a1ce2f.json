@@ -1,0 +1,86 @@
+{
+  "request_id": "220713102422_83411410-33fe-594e-b60a-588337a1ce2f",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "VLERAFATMV",
+        "NRSERIAL",
+        "TIPKLL",
+        "NRD",
+        "PERSHKRIMLOCATION",
+        "KARTLLG",
+        "CMIMM",
+        "AMVLEREMBET",
+        "PERSHKRIMPRONESI",
+        "VLERAM",
+        "KODPRONESI",
+        "KURS1",
+        "KMON",
+        "VLERAOR",
+        "VLERASH",
+        "ORDERSCR",
+        "KODLOCATION",
+        "KOEFSHB",
+        "VLERAFT",
+        "STATROW",
+        "NJESINV",
+        "KOMENT",
+        "CMIMBS",
+        "KODOPER",
+        "TAGNR",
+        "BC",
+        "KODFKL",
+        "PERSHKRIMFKL",
+        "NORMEAM",
+        "VLERAAM",
+        "CMIMOR",
+        "KURS2",
+        "PERSHKRIM",
+        "VLERAEXTMV",
+        "VLERAFAT",
+        "TROW",
+        "VLERABS",
+        "CMIMSH",
+        "SASI",
+        "KOD",
+        "NRRENDKLLG",
+        "DATEOPER",
+        "NJESI",
+        "NRRENDOR",
+        "KODAF"
+      ],
+      "import": "BM15_dbo_AQSCR"
+    },
+    "created_at": "2022-07-13T10:24:22.228497+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/AQSCR",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "afd53ca4871fb0f67896e420969451800f10aa8a"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:22.228497+00:00",
+  "_signature": "hY+KliEaiyabcay/DfhXjQ58WGsZHzDOmk6OS15qFBAfFej6bt05/mUOXRyACREXXJQm6T7dzvJJ3gqthDcKAg=="
+}
