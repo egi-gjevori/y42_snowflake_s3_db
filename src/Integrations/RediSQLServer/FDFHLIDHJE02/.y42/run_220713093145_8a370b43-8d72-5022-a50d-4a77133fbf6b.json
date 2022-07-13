@@ -1,6 +1,6 @@
 {
   "request_id": "220713093145_8a370b43-8d72-5022-a50d-4a77133fbf6b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -77,7 +77,141 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5937f-3201-3a5c-0000-e9a10018b07a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/82e0ed48-5ece-4b45-a5fe-4aaffe574529",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:35:18.497429+00:00",
+    "row_count": 77128,
+    "current_import_row_count": 77128,
+    "size_in_bytes": 1952256,
+    "columns": [
+      {
+        "field_name": "kmagrf",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kartllg",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tip",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrdok",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "nrdoklnk2",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "shenim2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "nrfrakslnk",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "kmag",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrfraks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "datedoklnk2",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "sasi",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "datedoklnk",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrdoklnk",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrfrakslnk1",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "dokument",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kmaglnk",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrdoklnk1",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kmaglnk2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrfrakslnk2",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "datedoklnk1",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kmaglnk1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "shenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713093145_8a370b43-8d72-5022-a50d-4a77133fbf6b",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713093145_8a370b43-8d72-5022-a50d-4a77133fbf6b"
   },
-  "_signature": "1+nRMoevwegRA4swp7TWeWZ/MKe7MpLKxNDtvW5Cmx0TaHEp6X7Nyc6cBI+xzgQiTLtu1Q5IAvoMO4IOePjsBA=="
+  "finished_at": "2022-07-13T09:35:18.497567+00:00",
+  "_signature": "TpD3V+YXAvpevbg2o3y9xEDCwJzBkzK6LXjEJ4qJsRqXlliYqlp/HcBJerg7NNkJ6JSb0pUbAmOJlVCVxuL/DA=="
 }
