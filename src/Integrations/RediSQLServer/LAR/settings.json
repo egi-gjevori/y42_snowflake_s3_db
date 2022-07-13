@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "SG8",
+    "MBARTURMV",
+    "SG3",
+    "SG6",
+    "SG1",
+    "GJMV",
+    "KMON",
+    "TAGNR",
+    "SG9",
+    "SG2",
+    "PERSHKRIM",
+    "TROW",
+    "SG4",
+    "MBARTUR",
+    "KOD",
+    "GJ",
+    "SG10",
+    "SG7",
+    "SG5",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_LAR"
+}

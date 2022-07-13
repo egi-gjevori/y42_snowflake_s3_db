@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NGJYRE",
+    "KLASIF2",
+    "KLASIF6",
+    "TAG",
+    "BC",
+    "CMSH",
+    "KLASIF3",
+    "SASIAPRINT",
+    "KLASIF4",
+    "PERSHKRIM",
+    "KLASIF5",
+    "VMD",
+    "KOD",
+    "SHENIME",
+    "GARANCI",
+    "MASE",
+    "KLASIF"
+  ],
+  "import": "BM15_dbo_ARTTMP"
+}

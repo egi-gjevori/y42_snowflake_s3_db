@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TIP",
+    "NRDOK",
+    "NRRENDORDOK",
+    "PCIP",
+    "DATEDOK",
+    "DATECREATE",
+    "OPERACION",
+    "KOMENT",
+    "TAGNR",
+    "DATEMOD",
+    "KODUSER",
+    "OPERACIONDOK",
+    "TROW",
+    "ORA",
+    "DATETIMEMOD",
+    "PCNAME",
+    "VLERE",
+    "LGJOB",
+    "NRFRAKS",
+    "NRRENDOR",
+    "MASTER"
+  ],
+  "import": "BM15_dbo_DITARVEPRIME"
+}

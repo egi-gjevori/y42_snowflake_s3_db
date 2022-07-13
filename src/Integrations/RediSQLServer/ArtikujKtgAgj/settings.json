@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DATEEND",
+    "USI",
+    "NRDOK",
+    "SHENIM2",
+    "DATEDOKCREATE",
+    "DATEDOK",
+    "LISTORDEREDDQ",
+    "COLUMNLIST",
+    "STATUS",
+    "LISTORDEREDMK",
+    "LISTORDEREDKL",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "ACTIV",
+    "TROW",
+    "KOD",
+    "DATESTART",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_ArtikujKtgAgj"
+}

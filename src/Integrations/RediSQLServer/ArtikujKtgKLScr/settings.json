@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TIPKLL",
+    "NRD",
+    "ORDERSCR",
+    "STATROW",
+    "TAGNR",
+    "PERSHKRIM",
+    "VLEFTE",
+    "TROW",
+    "KOD",
+    "NJESI",
+    "NRRENDOR",
+    "KODAF"
+  ],
+  "import": "BM15_dbo_ArtikujKtgKLScr"
+}

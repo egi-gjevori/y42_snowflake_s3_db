@@ -1,0 +1,32 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TELEFON1",
+    "FAX",
+    "USI",
+    "KLASIFIKIM1",
+    "KATEGORI",
+    "DATECREATE",
+    "ADRESA3",
+    "USM",
+    "TAGNR",
+    "ACTIV",
+    "KLASIFIKIM2",
+    "DATEEDIT",
+    "TELEFON2",
+    "PERSHKRIM",
+    "OBJEKT",
+    "GRUP",
+    "RAJON",
+    "NOTACTIV",
+    "TROW",
+    "KOD",
+    "NIPT",
+    "VENDNDODHJE",
+    "ADRESA2",
+    "RRETHI",
+    "NRRENDOR",
+    "ADRESA1"
+  ],
+  "import": "BM15_dbo_PERSONEL"
+}

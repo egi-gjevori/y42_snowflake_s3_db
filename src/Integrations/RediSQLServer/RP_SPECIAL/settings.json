@@ -1,0 +1,22 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KLS2",
+    "KLS3PROMPT",
+    "KODRP",
+    "PERSHKRIM3",
+    "GJVP",
+    "REPL",
+    "KLS1",
+    "KLS2PROMPT",
+    "PERSHKRIM1",
+    "KLS3",
+    "KOD",
+    "TITULL",
+    "GJ",
+    "PERSHKRIM2",
+    "NRRENDOR",
+    "KLS1PROMPT"
+  ],
+  "import": "BM15_dbo_RP_SPECIAL"
+}

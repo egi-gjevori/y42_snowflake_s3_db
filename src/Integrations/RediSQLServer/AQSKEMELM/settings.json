@@ -1,0 +1,30 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "LLOGBL",
+    "USI",
+    "TAG",
+    "DITARKONTABBLERJE",
+    "USM",
+    "LLOGSH",
+    "LLOGSHPVLERMBET",
+    "TAGNR",
+    "DITARKONTABSHITJE",
+    "LLOGAM",
+    "LLOGCEVL",
+    "LLOGCEAM",
+    "LLOGSHMI",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "LLOGSHPBL",
+    "LLOGPLUSVLERA",
+    "LLOGSHPAM",
+    "KOD",
+    "LLOGPRONESI",
+    "NRRENDOR",
+    "LLOGMINUSVLERA",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_AQSKEMELM"
+}

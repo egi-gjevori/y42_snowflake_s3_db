@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KUFIS",
+    "KODUS",
+    "REFERENCE",
+    "TAGNR",
+    "KUFIP",
+    "TIPDOK",
+    "TROW",
+    "MODUL",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_DRHUSERKUFI"
+}

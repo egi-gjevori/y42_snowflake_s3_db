@@ -1,0 +1,21 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "kodkase",
+    "KARTE",
+    "zbritjeart",
+    "PIKE",
+    "VOUCHER",
+    "artikulli",
+    "karteklienti",
+    "perqtvsh",
+    "NRRENDORART",
+    "cmshzb0",
+    "sasi",
+    "zbritjefat",
+    "CASHPARESTO",
+    "NRRENDOR",
+    "CASH"
+  ],
+  "import": "BM15_dbo_KASAFISKALE"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "PCNF01",
+    "FLCL02",
+    "PRDF01",
+    "DATECREATE",
+    "TAGNR",
+    "DATEEDIT",
+    "FLCL01",
+    "DTMF01",
+    "TROW",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_LOCALS"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRD",
+    "KARTLLG",
+    "KURS1",
+    "KMON",
+    "ORDERSCR",
+    "STATROW",
+    "LLOGARIPK",
+    "KOMENT",
+    "VLERAMV",
+    "TAGNR",
+    "KURS2",
+    "PERSHKRIM",
+    "TROW",
+    "KOD",
+    "VLERA",
+    "NJESI",
+    "NRRENDOR",
+    "KODAF"
+  ],
+  "import": "BM15_dbo_SMPGSCR"
+}

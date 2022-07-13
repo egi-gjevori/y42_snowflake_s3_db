@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRRENDOR",
+    "NRDITAR",
+    "TIPD"
+  ],
+  "import": "BM15_dbo_T_DokDit_KL"
+}

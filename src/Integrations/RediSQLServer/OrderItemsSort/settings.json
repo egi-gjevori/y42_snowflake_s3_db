@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "PROMPTKOEF4",
+    "ORDERFIELDS",
+    "USI",
+    "KLASIFIKIM1",
+    "SHENIM2",
+    "DATEDOK",
+    "PROMPTKOEF3",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "ACTIV",
+    "KLASIFIKIM2",
+    "TROW",
+    "PROMPTKOEF1",
+    "KOD",
+    "PROMPTKOEF2",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_OrderItemsSort"
+}

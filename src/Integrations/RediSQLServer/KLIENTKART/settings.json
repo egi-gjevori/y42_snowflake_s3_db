@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TELEFON1",
+    "FAX",
+    "DATEEND",
+    "KLASIFIKIM1",
+    "KODPOSTAR",
+    "KODFIN",
+    "ADRESA3",
+    "TAGNR",
+    "DATEBEG",
+    "KLASIFIKIM2",
+    "TELEFON2",
+    "BLOKIM",
+    "PERSHKRIM",
+    "PERQINDJE",
+    "TROW",
+    "EMAIL",
+    "LLOGARIBANKE",
+    "KOD",
+    "ADRESA2",
+    "NRRENDOR",
+    "ADRESA1"
+  ],
+  "import": "BM15_dbo_KLIENTKART"
+}

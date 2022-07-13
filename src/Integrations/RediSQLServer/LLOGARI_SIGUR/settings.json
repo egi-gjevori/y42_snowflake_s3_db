@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "VEPRIMLM",
+    "NIV",
+    "AKTPASIV",
+    "ORIGJINA",
+    "TIPI",
+    "TAG",
+    "USM",
+    "TAGNR",
+    "NOTRV",
+    "POZIC",
+    "PERSHKRIM",
+    "TROW",
+    "PERSHKRIM1",
+    "SUP",
+    "KOD",
+    "KLASA",
+    "KODSUP",
+    "NRRENDOR",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_LLOGARI_SIGUR"
+}

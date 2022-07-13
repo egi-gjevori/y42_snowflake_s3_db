@@ -1,0 +1,24 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DATEEND",
+    "USI",
+    "KLASIFIKIM1",
+    "SHENIM2",
+    "DATECREATE",
+    "SHENIM4",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "SHENIM3",
+    "KOD",
+    "DATESTART",
+    "KODTCR",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_FisTCR"
+}

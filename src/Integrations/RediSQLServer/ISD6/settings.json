@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "BC",
+    "SASIA"
+  ],
+  "import": "BM15_dbo_ISD6"
+}

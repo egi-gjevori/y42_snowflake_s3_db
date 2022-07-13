@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KOD",
+    "DATEDOK",
+    "NRD",
+    "NRRENDOR",
+    "NRTKR",
+    "NRTIMEKR"
+  ],
+  "import": "BM15_dbo_LLOGNRTIMEKR"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KLASIFIKIM3",
+    "KLASIFIKIM1",
+    "NRDOK",
+    "DITEVON",
+    "VL",
+    "KATEGORI",
+    "DATEDOK",
+    "DTPAGESE",
+    "DIF",
+    "KMON",
+    "DTFAT",
+    "DTFAT1",
+    "AGJENTSHITJE",
+    "TREGDK",
+    "KLASIFIKIM2",
+    "KMAG",
+    "TIPDOK",
+    "EMERTIM",
+    "DIFMV",
+    "VLMV",
+    "KOD",
+    "NIPT",
+    "KODRF",
+    "VENDNDODHJE",
+    "NRRENDOR",
+    "NRFAT"
+  ],
+  "import": "BM15_dbo_QFFFatVonPikezim"
+}

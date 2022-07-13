@@ -1,0 +1,32 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KR",
+    "TAGRND",
+    "NRD",
+    "LLOGARI",
+    "KURS1",
+    "KMON",
+    "DB",
+    "ORDERSCR",
+    "TAG",
+    "STATROW",
+    "LLOGARIPK",
+    "KOMENT",
+    "TREGDK",
+    "TAGNR",
+    "TIPKLLREF",
+    "KURS2",
+    "ORDPOST",
+    "PERSHKRIM",
+    "FAART",
+    "TROW",
+    "DBKRMV",
+    "KOD",
+    "FADESTIN",
+    "KODREF",
+    "FAKLS",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_FKSCR"
+}

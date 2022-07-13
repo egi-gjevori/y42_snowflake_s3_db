@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KOD",
+    "PERSHKRIM",
+    "REFERENCE",
+    "GRUP",
+    "NRRENDOR",
+    "NOTACTIV",
+    "TAGNR",
+    "TROW"
+  ],
+  "import": "BM15_dbo_Isd_AQLocation"
+}
