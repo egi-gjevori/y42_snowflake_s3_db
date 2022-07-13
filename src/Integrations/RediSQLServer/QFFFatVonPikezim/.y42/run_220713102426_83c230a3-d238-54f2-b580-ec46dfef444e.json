@@ -63,5 +63,22 @@
     }
   },
   "created_at": "2022-07-13T10:24:26.060332+00:00",
-  "_signature": "AxlowLR2BTeb/semzwApNzPHSLSQFxJKBKTMHQwpOONBq08CW+q4XXUJTJ2GPKd199jDray5dy8jXDYj5b0nBA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T10:28:15.694231+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_QFFFatVonPikezim": {
+          "version": 1657707965379
+        }
+      },
+      "currently_syncing": "BM15_dbo_QFFFatVonPikezim",
+      "schema_hash": "9a651dfde0372f4c587e43cd0c654a6f"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a593b4-3201-3a5e-0000-e9a10018c3fa",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/63461e0a-2916-4f9c-9fd5-8d01a91da631",
+    "partial": false
+  },
+  "_signature": "Pedf2JpjsP5zNfKnLGB2LE+8SECBB9pkeY15oiEteOfl4mDfxuaigxXAQoWtxVUUp/DVHZJujGEb0l27i3BaCw=="
 }
