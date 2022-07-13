@@ -45,20 +45,20 @@
   "created_at": "2022-07-13T09:32:00.537726+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-13T09:35:09.520251+00:00",
+    "export_finished_at": "2022-07-13T09:35:12.237066+00:00",
     "external_state": {
       "bookmarks": {
         "BM15_dbo_Isd_TipDocuments": {
-          "version": 1657704887097
+          "version": 1657704891985
         }
       },
       "currently_syncing": "BM15_dbo_Isd_TipDocuments",
       "schema_hash": "037f81fd9da8bf01bd1ab0f440875537"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a5937f-3201-3a5d-0000-e9a10018a082",
-    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/fd19a6d1-17ba-440a-97fd-cf41af191e4c",
+    "external_id": "01a5937f-3201-3a5d-0000-e9a10018a09a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/74a6e0ad-2f93-4897-90b0-0218cf4cb84b",
     "partial": false
   },
-  "_signature": "2QkMNOd9CpSb4J26H3aEpAeg4rRZvSfb0ydWbrsRflDk4aU4ZWlwprHqjBWRgdrNY6rn/HBgMQwQct818lAxBQ=="
+  "_signature": "Y88qCkTsf9DKr8PE9BYb5WVE8KrylLkigBYPplUT79KyDQsePPGJrLdBeIrzWyPhY5RMeZXo3J+m/JgRLYYVDQ=="
 }
