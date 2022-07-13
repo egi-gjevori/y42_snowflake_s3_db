@@ -1,6 +1,6 @@
 {
   "request_id": "220713102422_b0d2320c-70f3-5d26-b1c5-fa1e5d51de59",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -76,7 +76,136 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b3-3201-3a5e-0000-e9a10018c31e",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/4b23d3f6-7df4-4443-8cba-e7fea6f662ba",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:27:32.880794+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 5120,
+    "columns": [
+      {
+        "field_name": "llogcevl",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "usm",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogplusvlera",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogminusvlera",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogam",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ditarkontabshitje",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "llogsh",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "llogceam",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogshpvlermbet",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogbl",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ditarkontabblerje",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "llogshmi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "notactiv",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "kod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogshpbl",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "usi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "klasifikim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogpronesi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tag",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "llogshpam",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102422_b0d2320c-70f3-5d26-b1c5-fa1e5d51de59",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102422_b0d2320c-70f3-5d26-b1c5-fa1e5d51de59"
   },
-  "_signature": "FMo3CO/seUJUxtAAKuxzraA+EomYJFyiSm4++TtQYmonzKiVFxd/c4YPTZ9MkICaaGpCGXkhIAvZDZ6hB+80AQ=="
+  "finished_at": "2022-07-13T10:27:32.880926+00:00",
+  "_signature": "xvojPAjVzHekM7TBrqGXgtjbAL9TFgXMpTZ/XOEjxULZH5iRtiE2TL0XRch0loFRDs6KOyjoRSPQHc6SGwLCBA=="
 }
