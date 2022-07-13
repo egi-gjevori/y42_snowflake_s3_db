@@ -45,5 +45,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:49.521387+00:00",
-  "_signature": "hjUUXLqOrbIhq/nizEgm7HGDpaEMaCRlscDZg+yvPZ87HEfEELeYhLBnEPzz8Zi3Yrs+AXv1pITTlTn0BM77Dw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:34:22.323397+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_PERIUDHE": {
+          "version": 1657704785000
+        }
+      },
+      "currently_syncing": "BM15_dbo_PERIUDHE",
+      "schema_hash": "a93177d6f1da206d569ca22c5fe60182"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5937e-3201-3a5d-0000-e9a10018a03a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/948c127e-6c3c-453f-ba50-cce21c4fdcf8",
+    "partial": false
+  },
+  "_signature": "taH0VFrFo2Eujs0jkbhoKev+oDJNlrAPeu1d9StOZHutcXUa/xEwmbUmeeyshZSSo7vCiyLlsUz9U+DC8dilCA=="
 }
