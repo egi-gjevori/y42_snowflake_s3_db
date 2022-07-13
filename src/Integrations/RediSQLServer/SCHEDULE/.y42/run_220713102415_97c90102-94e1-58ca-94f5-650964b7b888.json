@@ -1,0 +1,50 @@
+{
+  "request_id": "220713102415_97c90102-94e1-58ca-94f5-650964b7b888",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "OPERATOR",
+        "TIPI",
+        "ID",
+        "TIPI_KOD",
+        "PERSHKRIM",
+        "TIPI_PERSHKRIM",
+        "AKTIV",
+        "UPDATED",
+        "DATA"
+      ],
+      "import": "BM15_dbo_SCHEDULE"
+    },
+    "created_at": "2022-07-13T10:24:15.621796+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/SCHEDULE",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "3cbd1a0fac162ddc3f7196891240b4873faeafcc"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:15.621796+00:00",
+  "_signature": "D7AP9teNX0dYnciO1VFD49Uref7Xbz2QjKuuPxeLaIgRJ4rJA75vOv2GNpE56VjM03A8+kI33ntVcvAvcJ6HBA=="
+}
