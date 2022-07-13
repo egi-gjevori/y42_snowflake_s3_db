@@ -1,6 +1,6 @@
 {
   "request_id": "220713093209_a03276bc-2115-59d8-b26c-3a1b5d100e13",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -43,5 +43,8 @@
     }
   },
   "created_at": "2022-07-13T09:32:09.118116+00:00",
-  "_signature": "/dPv4Hn78UpfaezRvDSyr7vd8Bc8XYNGiX5r+/I8At0N2ldJ43WX9L2oBXWcZQAEC3nmgG5vxjUSHy/l57dkDA=="
+  "failed_at": "2022-07-13T09:35:34.572922+00:00",
+  "error_code": 404,
+  "error_message": "no data",
+  "_signature": "Y5DTCL/P9aHOJKTDop3h/mHMG7+VSmR8r6kejO83V/vjQ7UAp0m4JgbhjB6poYeYFtmn2W9/jPn+FtChI+nUDw=="
 }
