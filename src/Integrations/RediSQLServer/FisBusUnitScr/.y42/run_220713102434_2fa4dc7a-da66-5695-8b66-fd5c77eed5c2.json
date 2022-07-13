@@ -49,5 +49,22 @@
     }
   },
   "created_at": "2022-07-13T10:24:34.583382+00:00",
-  "_signature": "J+bJ0nB5hpJwIYAIyPKdD2BIgyz7Q5kF+Iolll0o8hSkKPeLzWSv6HQJaKNfai3kjVIi7ltE1cOjocmWtedvCw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T10:27:38.271051+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_FisBusUnitScr": {
+          "version": 1657708014662
+        }
+      },
+      "currently_syncing": "BM15_dbo_FisBusUnitScr",
+      "schema_hash": "643f3fc5e710ba530bf7a87d5043219b"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a593b4-3201-3a5d-0000-e9a10018a33a",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/425f3eb1-56c9-4359-a1d2-ab14642b6cac",
+    "partial": false
+  },
+  "_signature": "FPKIlburSUZHPYzT9+l/QDv2qZdj1MfUKoyacL7MFtjIMSGUoiP0yr9fUbC7aSXPfLsDghLX+kzSkJThVfZpDw=="
 }
