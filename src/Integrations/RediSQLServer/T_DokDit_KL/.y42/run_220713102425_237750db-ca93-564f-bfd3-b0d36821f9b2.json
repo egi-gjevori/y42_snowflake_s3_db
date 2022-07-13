@@ -1,6 +1,6 @@
 {
   "request_id": "220713102425_237750db-ca93-564f-bfd3-b0d36821f9b2",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -55,7 +55,31 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b5-3201-3a5c-0000-e9a10018b43e",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/4f9dd4fd-c59c-4723-817a-bdca1627dddb",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:29:14.287003+00:00",
+    "row_count": 235773,
+    "current_import_row_count": 235773,
+    "size_in_bytes": 1220096,
+    "columns": [
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrditar",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "tipd",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102425_237750db-ca93-564f-bfd3-b0d36821f9b2",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102425_237750db-ca93-564f-bfd3-b0d36821f9b2"
   },
-  "_signature": "3KkImpe3d5RF3p0FTPB29eNmOUNDPcpN8GcG9GhaEXn4JeiiMgN/Mf64K61tvYvPnzfapaxDOua2pawi69OHBg=="
+  "finished_at": "2022-07-13T10:29:14.287109+00:00",
+  "_signature": "2X4V/xSiBl+er2XGmuS8ISOm6FyThiyqv3gYB+U1+4GP/+R0jIFdxBF5TZBqxlX4OR3YLQtu/uCaFzb/PlqJCg=="
 }
