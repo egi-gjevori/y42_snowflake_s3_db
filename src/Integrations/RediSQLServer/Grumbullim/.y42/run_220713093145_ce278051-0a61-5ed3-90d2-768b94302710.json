@@ -1,0 +1,60 @@
+{
+  "request_id": "220713093145_ce278051-0a61-5ed3-90d2-768b94302710",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "USI",
+        "NRDOK",
+        "NRGRUP",
+        "SHENIM2",
+        "DATEDOK",
+        "DATECREATE",
+        "STATUS",
+        "SHENIM4",
+        "USM",
+        "SHENIM1",
+        "TAGNR",
+        "StNipt",
+        "DATEEDIT",
+        "KMAG",
+        "TROW",
+        "FIRSTDOK",
+        "SHENIM3",
+        "StNiptJo",
+        "NRRENDOR"
+      ],
+      "import": "BM15_dbo_Grumbullim"
+    },
+    "created_at": "2022-07-13T09:31:45.897999+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/Grumbullim",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "14d0b86cd88247386edd160dca2a3da1978c81f5"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:31:45.897999+00:00",
+  "_signature": "VcqPIrNtw173FTecBWcYVY55r1oPRSvhqwiXPDBF9kS8N3kq8PaYuCM/cd6c6s8f3WNzeQC/bv6vXaHxEKTMDg=="
+}
