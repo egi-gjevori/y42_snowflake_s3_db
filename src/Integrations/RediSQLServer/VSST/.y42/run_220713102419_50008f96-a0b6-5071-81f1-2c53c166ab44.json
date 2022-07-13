@@ -1,0 +1,70 @@
+{
+  "request_id": "220713102419_50008f96-a0b6-5071-81f1-2c53c166ab44",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "EXTEXP",
+        "TAGRND",
+        "USI",
+        "EXTIMPKOMENT",
+        "NRDOK",
+        "POSTIM",
+        "DATEDOK",
+        "DATECREATE",
+        "KURS1",
+        "KMON",
+        "KODNENDITAR",
+        "LETER",
+        "JOBCREATE",
+        "USM",
+        "TAGNR",
+        "DATEEDIT",
+        "EXTIMPID",
+        "DST",
+        "KONFIRM",
+        "KURS2",
+        "EXTEXPKOMENT",
+        "TROW",
+        "PERSHKRIM1",
+        "FIRSTDOK",
+        "SHENIME",
+        "NRDFK",
+        "PERSHKRIM2",
+        "NRRENDOR",
+        "KLASIFIKIM"
+      ],
+      "import": "BM15_dbo_VSST"
+    },
+    "created_at": "2022-07-13T10:24:19.417159+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/VSST",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "3cbd1a0fac162ddc3f7196891240b4873faeafcc"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:19.417159+00:00",
+  "_signature": "CMKHdbavDSjvg8YyxU1756siwp4kShzG5OWSf1Hj0fLfHYBwufcotJmWZS+KE1/FmJ5tax4lEBepKWvRGMV1Ag=="
+}
