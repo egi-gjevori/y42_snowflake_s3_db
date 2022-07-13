@@ -1,6 +1,6 @@
 {
   "request_id": "220713092613_a89b81b9-6177-5077-9eff-5be0bb08d996",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -148,40 +148,15 @@
     "external_id": "01a593ad-3201-3a5c-0000-e9a10018b2c2",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/07657c5f-d7ee-4b0f-8ad2-d8a8c91e5fbb",
     "partial": false,
-    "import_finished_at": "2022-07-13T10:14:15.733270+00:00",
+    "import_finished_at": "2022-07-13T10:23:41.161074+00:00",
     "row_count": 2464170,
     "current_import_row_count": 2464170,
     "size_in_bytes": 110519296,
     "columns": [
       {
-        "field_name": "cmimm",
+        "field_name": "cmshref",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "kodagjent",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "statrow",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "perqkms",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "tipfr",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "trow",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
       },
       {
         "field_name": "vlerabs",
@@ -189,169 +164,14 @@
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "vltax",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "vlpatvsh",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "cmshref",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "notmag",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "tipkll",
+        "field_name": "tipref",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "kodaf",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nrrendor",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "fprofil",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "kartllg",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nrditar",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "pershkrimpronesi",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "perqtvsh",
+        "field_name": "koeficentartkl",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "sasikonv",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "sasi",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "perqdscn",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "vlkostmes",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "konvertart",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "vlerakms",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "promoctip",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "njesinv",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "kodpronesi",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "promptprod1",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "promoc",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "cmshzb0",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "peshanet",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "cmkostmesmv",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "cmshrefap2",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "ifizik",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "cmimbstvsh",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "cmimreference",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "llogaripk",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "cmrimbursim",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "klsart",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
       },
       {
         "field_name": "nrdokref",
@@ -359,82 +179,17 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "cmshzb0mv",
+        "field_name": "vlpatvsh",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "datedokref",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "bc",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
         "field_name": "nrd",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "dtskadence",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "kodklf",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "kodtvsh",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "koment",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "tipref",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "vlrimbursim",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "njesi",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "orderscr",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "rimbursim",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "isnotfiro",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "peshabrt",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "dtprodhim",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
-      },
-      {
-        "field_name": "nrrendkllg",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
       },
@@ -449,12 +204,7 @@
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "pershkrimlocation",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "vlerafr",
+        "field_name": "cmimbs",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
@@ -464,44 +214,34 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "kodlocation",
+        "field_name": "sasikonv",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "notmag",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "tipkth",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "tagnr",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "marzh",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "koefshb",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "koeficient",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "tagrnd",
+        "field_name": "tipkll",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "cmimbs",
+        "field_name": "vltax",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "vlklaseref",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
+        "field_name": "ifizik",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
       },
       {
         "field_name": "aplinvestim",
@@ -509,42 +249,17 @@
         "external_data_type": "BOOLEAN"
       },
       {
-        "field_name": "koeficentartagj",
+        "field_name": "cmkostmes",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "flength",
+        "field_name": "pershkrimpronesi",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "kodaq",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "koeficentartkl",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "pershkrim",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nrserial",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "fbars",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "kodkr",
+        "field_name": "koment",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -554,39 +269,144 @@
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "vleram",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
+        "field_name": "datedokref",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
       },
       {
-        "field_name": "cmimklaseref",
+        "field_name": "tagnr",
         "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
+        "external_data_type": "NUMBER"
       },
       {
-        "field_name": "cmshrefap",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "bc",
+        "field_name": "promoctip",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "tipkth",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "cmkostmes",
+        "field_name": "cmrimbursim",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "isamb",
+        "field_name": "vlerafr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "dtprodhim",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "isnotfiro",
         "data_type": "BOOLEAN",
         "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "sasi",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "tipfr",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "koddetaj",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodklf",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "koeficentartagj",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "peshabrt",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "promockod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogaripk",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "perqkms",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "vlkostmes",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "nrrendkllg",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrserial",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodkr",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cmimm",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "dtskadence",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "apltvsh",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "kodagjent",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodaq",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrimlocation",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodaf",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "koefshb",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
       },
       {
         "field_name": "sasifr",
@@ -599,22 +419,202 @@
         "external_data_type": "TEXT"
       },
       {
+        "field_name": "perqdscn",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cmimreference",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "peshanet",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "fbars",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "vlklaseref",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "rimbursim",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "konvertart",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "isamb",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "cmshzb0mv",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "tagrnd",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "fprofil",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cmkostmesmv",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cmshzb0",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "orderscr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "vlerakms",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "vlrimbursim",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "nrditar",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "kodlocation",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "promoc",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "vleram",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cmimklaseref",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "koeficient",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "klsart",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "perqtvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "flength",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kartllg",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "njesi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cmshrefap",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "njesinv",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodpronesi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cmimbstvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cmshrefap2",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "marzh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kodtvsh",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
         "field_name": "garanci",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
       },
       {
-        "field_name": "apltvsh",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "koddetaj",
+        "field_name": "promptprod1",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "promockod",
+        "field_name": "statrow",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       }
@@ -622,6 +622,6 @@
     "table_name": "220713092613_a89b81b9-6177-5077-9eff-5be0bb08d996",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713092613_a89b81b9-6177-5077-9eff-5be0bb08d996"
   },
-  "finished_at": "2022-07-13T10:14:15.733560+00:00",
-  "_signature": "Kvsx/8gn9++QIDW2maNpF+cvli8kaGGEBhTSOnVmd7JCmkuMXx6zhdWqgK001ESIolZjqucnS3OHgXT6ZlaqAw=="
+  "finished_at": "2022-07-13T10:23:41.161343+00:00",
+  "_signature": "t+rfQCiPI77cuIU0OvOSXaDBBTcnII/qfUA7i8lKQ9q+LzlWFJqFbPQlAoiqZv0p0dNvQvkizQccN6pQA7pbCw=="
 }
