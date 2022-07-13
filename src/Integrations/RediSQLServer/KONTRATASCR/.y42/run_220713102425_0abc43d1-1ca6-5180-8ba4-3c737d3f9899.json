@@ -1,0 +1,51 @@
+{
+  "request_id": "220713102425_0abc43d1-1ca6-5180-8ba4-3c737d3f9899",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "FIRSTFAT",
+        "NRD",
+        "CMIM",
+        "KOMENT",
+        "TAGNR",
+        "ARDHSHTYRE",
+        "PERSHKRIM",
+        "MACADRES",
+        "KOD",
+        "NRRENDOR"
+      ],
+      "import": "BM15_dbo_KONTRATASCR"
+    },
+    "created_at": "2022-07-13T10:24:25.267929+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/KONTRATASCR",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "91114c623a204b8daf72124511fe7fd95af457bb"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:25.267929+00:00",
+  "_signature": "uuSkWwAVoAXKE+sVrCAcxG6x1EptEhii1kr0kt3Ece+jccQ6HB0sLgFpgamlSqKTz+dy1G/m56P8ebR3hD5LDw=="
+}
