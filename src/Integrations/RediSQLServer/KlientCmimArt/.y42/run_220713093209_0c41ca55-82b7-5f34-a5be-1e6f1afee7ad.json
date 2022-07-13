@@ -1,0 +1,73 @@
+{
+  "request_id": "220713093209_0c41ca55-82b7-5f34-a5be-1e6f1afee7ad",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "CMSH12",
+        "CMSH10",
+        "NRD",
+        "KLASIF2",
+        "CMSH2",
+        "CMSH16",
+        "CMSH13",
+        "CMSH19",
+        "CMSH9",
+        "STATROW",
+        "CMSH4",
+        "CMSH7",
+        "TAGNR",
+        "CMSH",
+        "CMSH18",
+        "KLASIF3",
+        "CMSH17",
+        "CMSH3",
+        "CMSH5",
+        "CMSH1",
+        "KLASIF4",
+        "PERSHKRIM",
+        "CMSH8",
+        "TROW",
+        "CMSH14",
+        "CMSH6",
+        "CMSH11",
+        "KOD",
+        "CMSH15",
+        "NJESI",
+        "NRRENDOR",
+        "KLASIF"
+      ],
+      "import": "BM15_dbo_KlientCmimArt"
+    },
+    "created_at": "2022-07-13T09:32:09.490501+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/KlientCmimArt",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "e9f0e4247a5b4e50567d03428e38541b3fb07ab1"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:32:09.490501+00:00",
+  "_signature": "TRJjn7PHU/ivDbJgxcSZMjA1sIoc+jhxcD8kmSTFhUQ0SbqTVNeK2uej9Cj35nG7l8lM480rIfCExsB2bQuVBg=="
+}
