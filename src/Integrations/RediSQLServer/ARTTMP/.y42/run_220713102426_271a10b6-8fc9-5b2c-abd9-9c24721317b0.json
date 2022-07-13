@@ -1,0 +1,58 @@
+{
+  "request_id": "220713102426_271a10b6-8fc9-5b2c-abd9-9c24721317b0",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NGJYRE",
+        "KLASIF2",
+        "KLASIF6",
+        "TAG",
+        "BC",
+        "CMSH",
+        "KLASIF3",
+        "SASIAPRINT",
+        "KLASIF4",
+        "PERSHKRIM",
+        "KLASIF5",
+        "VMD",
+        "KOD",
+        "SHENIME",
+        "GARANCI",
+        "MASE",
+        "KLASIF"
+      ],
+      "import": "BM15_dbo_ARTTMP"
+    },
+    "created_at": "2022-07-13T10:24:26.586541+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/ARTTMP",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "d1f7a3a8fe2b218ae1de693dbc4e5866e21731d8"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:26.586541+00:00",
+  "_signature": "DEbI6qS20VMtg6/t9GxRgSJf2+TUmaYTO2F5Z+TTD1BYOKhUFnrG/X5zCQhIK1XR3GNBFr7qSCpwr+KvfhvtDQ=="
+}
