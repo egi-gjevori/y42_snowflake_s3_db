@@ -1,6 +1,6 @@
 {
   "request_id": "220713102416_318dbdd0-60c6-5d0d-bdd8-7703f33dff57",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -82,30 +82,15 @@
     "external_id": "01a593ba-3201-3a5e-0000-e9a10018c47a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/10ce5385-3e80-4a4c-9267-656f6ff20653",
     "partial": false,
-    "import_finished_at": "2022-07-13T10:30:49.052299+00:00",
+    "import_finished_at": "2022-07-13T10:34:35.247444+00:00",
     "row_count": 365467,
     "current_import_row_count": 365467,
     "size_in_bytes": 10644480,
     "columns": [
       {
-        "field_name": "h_totpatvsh",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
         "field_name": "k_vltvsh20",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "i_vltotexpval",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "pershkrim",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
       },
       {
         "field_name": "shenim1",
@@ -113,34 +98,9 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "isdokshoq",
+        "field_name": "vit",
         "data_type": "FLOAT",
         "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "j_fatmetvshval",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "periudhe",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "g_total",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "k_vltvsh10",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "k_vltvshval",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
       },
       {
         "field_name": "j_fatmetvsh10",
@@ -148,17 +108,17 @@
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "vit",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
       },
       {
-        "field_name": "j_fatmetvsh20",
+        "field_name": "h_totpatvshval",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
       {
-        "field_name": "i_vltotexp",
+        "field_name": "k_vltvshval",
         "data_type": "FLOAT",
         "external_data_type": "FLOAT"
       },
@@ -168,57 +128,7 @@
         "external_data_type": "TIMESTAMP_NTZ"
       },
       {
-        "field_name": "nrrendor",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
         "field_name": "klasifikim",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "niptnd",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "pershkrimnd",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "kodfiskal",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nipt",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "muaj",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "tipdok",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "h_totpatvshval",
-        "data_type": "FLOAT",
-        "external_data_type": "FLOAT"
-      },
-      {
-        "field_name": "rrethi",
-        "data_type": "STRING",
-        "external_data_type": "TEXT"
-      },
-      {
-        "field_name": "nrserial",
         "data_type": "STRING",
         "external_data_type": "TEXT"
       },
@@ -228,14 +138,104 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "datedok",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "i_vltotexpval",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "niptnd",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "h_totpatvsh",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "i_vltotexp",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "k_vltvsh10",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "j_fatmetvshval",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "kodfiskal",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrimnd",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "rrethi",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "j_fatmetvsh20",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "periudhe",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "isdokshoq",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrserial",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tipdok",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nipt",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "muaj",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "g_total",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
       }
     ],
     "table_name": "220713102416_318dbdd0-60c6-5d0d-bdd8-7703f33dff57",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102416_318dbdd0-60c6-5d0d-bdd8-7703f33dff57"
   },
-  "finished_at": "2022-07-13T10:30:49.052446+00:00",
-  "_signature": "PFX32rScAgQqk+03oBreTkmtaQmkJUK4nr9tOc9BkUiufW58VOVEHxNkhEWrP+mhtwAqDjsM54uUliBWLGvwBg=="
+  "finished_at": "2022-07-13T10:34:35.247613+00:00",
+  "_signature": "d8uct7P8hQMjJOCSja7MsCo/EP3yjWZTnXpFb+zyvlKz9QOtrPeH5ImPlKOZO/gLbKXs4T7i9y5b3/BE7BheDQ=="
 }
