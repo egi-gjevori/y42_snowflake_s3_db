@@ -1,0 +1,74 @@
+{
+  "request_id": "220713102439_1b41e531-8813-52a4-b629-7ab32757b2c2",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "TELEFON1",
+        "FAX",
+        "MJET",
+        "USI",
+        "DATECREATE",
+        "NIPTCERTIFIKATE",
+        "LINKKLIENT",
+        "ADRESA3",
+        "LINKKMAG",
+        "USM",
+        "TAGNR",
+        "DATEEDIT",
+        "TELEFON2",
+        "PERSHKRIM",
+        "NOTACTIV",
+        "TROW",
+        "SASINGARKIM",
+        "LISTMAGAZINA",
+        "VehOwner",
+        "TARGE",
+        "MBIEMER",
+        "KODFISKAL",
+        "KOD",
+        "NRLICENCE",
+        "KOMPANI",
+        "NIPT",
+        "ADRESA2",
+        "EMER",
+        "IDType",
+        "RRETHI",
+        "NRRENDOR",
+        "NJESINGARKIM",
+        "ADRESA1"
+      ],
+      "import": "BM15_dbo_TRANSPORT"
+    },
+    "created_at": "2022-07-13T10:24:39.506700+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/TRANSPORT",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "602c3a3ed45ad03f31b50bca22961a65fd4024d9"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:39.506700+00:00",
+  "_signature": "rfwFOz0RVabiF7Wyg0hHAZ6tYi7ktBEnR7X9388LNek4cnsROy8nVrMOVxVQtUtup99KlbonbAEBnpsgbAQPDQ=="
+}
