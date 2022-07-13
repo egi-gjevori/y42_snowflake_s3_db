@@ -1,6 +1,6 @@
 {
   "request_id": "220713102423_89ccd23f-4f41-50a6-9d41-6ab3996d0bea",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -54,7 +54,26 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b4-3201-3a5d-0000-e9a10018a3ee",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/2813477d-9fba-4a4c-afe1-e5bbe5d49392",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:28:45.917115+00:00",
+    "row_count": 15616,
+    "current_import_row_count": 15616,
+    "size_in_bytes": 207872,
+    "columns": [
+      {
+        "field_name": "vlertot",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "klientid",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102423_89ccd23f-4f41-50a6-9d41-6ab3996d0bea",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102423_89ccd23f-4f41-50a6-9d41-6ab3996d0bea"
   },
-  "_signature": "CiJu3vWYSeq2vgIEBUaoEmM2+uB1QNS7KRy8iWlN4fak2+Wua1twm/QaE9Wa+c2Ibpmm5MQjZDi8ZhhOD4oQDQ=="
+  "finished_at": "2022-07-13T10:28:45.917217+00:00",
+  "_signature": "7E7VGwPfgI+HPaDUI5f84H9czhMNl0/UiF9WBCryBRdpXFSrylPSvpibg1K33sDcvd+8WSBymyMGYMQb+SrUBg=="
 }
