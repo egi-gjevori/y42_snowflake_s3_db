@@ -44,5 +44,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:57.725241+00:00",
-  "_signature": "HbWs6PrB8Fa42GEVObLw9NKF0kVyRZFrc+6/fCkt0qTgI/pNednnxUZMfOW3hY67raKq4ct+2mvuNBYjLkGWCg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:53:44.196723+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_LEVIZJEHDSM2": {
+          "version": 1657704886354
+        }
+      },
+      "currently_syncing": "BM15_dbo_LEVIZJEHDSM2",
+      "schema_hash": "b8ef271117ac12075aff01f118b247bd"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59391-3201-3a5c-0000-e9a10018b1ae",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/a07f975b-23df-408b-ab48-938d15a67960",
+    "partial": false
+  },
+  "_signature": "ObAjDzZ9LBtyHALBftvniYDueY+vbopWxXDHCQrCNIb0HcHKyRl3xRR1MDLNf663l+uQc8ppzjF61lAuqJcpCA=="
 }
