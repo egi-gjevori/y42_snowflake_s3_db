@@ -1,0 +1,79 @@
+{
+  "request_id": "220713093203_c35629d8-7423-50aa-8377-2280238b9c7d",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "KR",
+        "TAGRND",
+        "TIPKLL",
+        "NRD",
+        "NRDOKREF",
+        "LLOGARI",
+        "DTAF",
+        "KURS1",
+        "KMON",
+        "DB",
+        "OPERNR",
+        "ORDERSCR",
+        "TIPREF",
+        "TAG",
+        "STATROW",
+        "AGJENTSHITJE",
+        "LLOGARIPK",
+        "KOMENT",
+        "TREGDK",
+        "OPERAPL",
+        "DATEDOKREF",
+        "TAGNR",
+        "OPERLLOJ",
+        "OPERNRFAT",
+        "OPERDT",
+        "KURS2",
+        "PERSHKRIM",
+        "FAART",
+        "TROW",
+        "KODDETAJ",
+        "DBKRMV",
+        "OPERORD",
+        "KODAGJENT",
+        "KOD",
+        "FADESTIN",
+        "NRDITAR",
+        "NRRENDOR",
+        "KODAF"
+      ],
+      "import": "BM15_dbo_VSSTSCR"
+    },
+    "created_at": "2022-07-13T09:32:03.206532+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/VSSTSCR",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "46be796c89286e2594eb49692805e87c8d0c4732"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:32:03.206532+00:00",
+  "_signature": "IgN/Y0ZOLSp4cpgcwH/+FDt8IbhjCwLR0/JWOzNVtdYt1Pp8/3lskjsstLCmlidVSV6Xwf2yC0tTjsYh7zi9Dw=="
+}
