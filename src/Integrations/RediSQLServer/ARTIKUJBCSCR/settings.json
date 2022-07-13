@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NGJYRE",
+    "NRD",
+    "USI",
+    "SHENIM2",
+    "PERIMETER",
+    "ORDERSCR",
+    "TAG",
+    "STATROW",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "BC",
+    "CMSH",
+    "PERSHKRIM",
+    "TROW",
+    "MASE",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_ARTIKUJBCSCR"
+}

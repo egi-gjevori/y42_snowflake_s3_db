@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "VLERAFATMV",
+    "NRDOK",
+    "DATEDOK",
+    "KODPRONESI",
+    "KODLOCATION",
+    "KOMENT",
+    "TIPROW",
+    "VEPRIMI",
+    "KODOPER",
+    "TAGNR",
+    "KODFKL",
+    "NORMEAM",
+    "VLERAAM",
+    "PERSHKRIM",
+    "VLERAEXTMV",
+    "VLERAFAT",
+    "TROW",
+    "KOD",
+    "VLERA",
+    "DOKUMENT",
+    "DATEOPER"
+  ],
+  "import": "BM15_dbo_Isd_AQDisplayKartele"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRSERIAL",
+    "VLERTOT",
+    "DTDOKDG",
+    "DATEDOK",
+    "KURS1",
+    "KMON",
+    "VLPATVSH",
+    "DTDSHOQ",
+    "NRDOKDG",
+    "SHENIM1",
+    "KMAG",
+    "KODFKL",
+    "VLERZBR",
+    "KURS2",
+    "VLTVSH",
+    "ISDG",
+    "KODFISKAL",
+    "KODDG",
+    "NIPT",
+    "NRDSHOQ",
+    "RRETHI",
+    "NRRENDOR",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_S_LIBBLAN"
+}

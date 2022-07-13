@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "PARENT",
+    "USI",
+    "KLASIFIKIM1",
+    "NIV",
+    "ORIGJINA",
+    "DATECREATE",
+    "USM",
+    "TAGNR",
+    "KLASIFIKIM2",
+    "DATEEDIT",
+    "POZIC",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "SUP",
+    "KOD",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_LISTE"
+}

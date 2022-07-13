@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KODKASE",
+    "TAGNR",
+    "LLOGTVSHFJ",
+    "PERSHKRIM",
+    "LLOGTVSHFF",
+    "TROW",
+    "KOD",
+    "PERQTVSH",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_KLASATVSH"
+}

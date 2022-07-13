@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRD",
+    "AUTOSHKLPFDBR",
+    "QKOSTO",
+    "KOSTMES",
+    "KOEFICIENT",
+    "PERSHKRIM",
+    "QKODAF",
+    "AUTOSHKLPFJ",
+    "KOD",
+    "NJESI",
+    "NRRENDOR",
+    "KOEFICPERB",
+    "KODPR"
+  ],
+  "import": "BM15_dbo_QARTIKUJSCR"
+}

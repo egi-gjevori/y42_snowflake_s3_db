@@ -1,0 +1,28 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "Klasif3",
+    "Cmb2",
+    "Klasif2",
+    "Klasif",
+    "Bc",
+    "Cmb",
+    "Cmsh",
+    "Dalje",
+    "Njesi",
+    "Marzhi",
+    "Tatim",
+    "Klasif4",
+    "Tvsh",
+    "Ditore",
+    "Mini",
+    "KostMes",
+    "Pershkrim",
+    "Javore",
+    "Maks",
+    "Kod",
+    "Hyrje",
+    "Mujore"
+  ],
+  "import": "BM15_dbo_vArtikuj"
+}

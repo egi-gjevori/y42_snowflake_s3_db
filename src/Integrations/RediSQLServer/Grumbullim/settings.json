@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "NRDOK",
+    "NRGRUP",
+    "SHENIM2",
+    "DATEDOK",
+    "DATECREATE",
+    "STATUS",
+    "SHENIM4",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "StNipt",
+    "DATEEDIT",
+    "KMAG",
+    "TROW",
+    "FIRSTDOK",
+    "SHENIM3",
+    "StNiptJo",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_Grumbullim"
+}

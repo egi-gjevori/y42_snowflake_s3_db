@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KOD",
+    "PERSHKRIM",
+    "ORG",
+    "NRRENDOR",
+    "TROW",
+    "ORD"
+  ],
+  "import": "BM15_dbo_Isd_TipDocuments"
+}

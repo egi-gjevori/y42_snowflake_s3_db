@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRRENDOR",
+    "DATA",
+    "PERIUDHE",
+    "PERSHKRIM",
+    "GJENDJE",
+    "DATA1",
+    "TROW",
+    "TAGNR"
+  ],
+  "import": "BM15_dbo_PERIUDHE"
+}

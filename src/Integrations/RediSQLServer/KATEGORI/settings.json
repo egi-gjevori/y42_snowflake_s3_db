@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "DATECREATE",
+    "USM",
+    "TAGNR",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "KOEFICENT",
+    "NOTACTIV",
+    "TROW",
+    "KOD",
+    "NRRENDOR",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_KATEGORI"
+}

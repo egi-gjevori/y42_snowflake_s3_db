@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TIP",
+    "KMAGLNK2",
+    "NRDOK",
+    "KARTLLG",
+    "SHENIM2",
+    "DATEDOK",
+    "NRFRAKSLNK",
+    "NRFRAKSLNK1",
+    "NRDOKLNK1",
+    "DATEDOKLNK1",
+    "SHENIM1",
+    "KMAG",
+    "NRFRAKSLNK2",
+    "DATEDOKLNK2",
+    "KMAGLNK",
+    "NRDOKLNK",
+    "DATEDOKLNK",
+    "PERSHKRIM",
+    "KMAGRF",
+    "NRDOKLNK2",
+    "SASI",
+    "DOKUMENT",
+    "NRFRAKS",
+    "NRRENDOR",
+    "KMAGLNK1"
+  ],
+  "import": "BM15_dbo_FDFHLIDHJE02"
+}

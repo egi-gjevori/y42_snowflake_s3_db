@@ -1,0 +1,24 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "NIV",
+    "ORIGJINA",
+    "DATECREATE",
+    "TIPI",
+    "TAG",
+    "USM",
+    "TAGNR",
+    "KLASIFIKIM2",
+    "DATEEDIT",
+    "POZIC",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "SUP",
+    "KOD",
+    "NRRENDOR",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_FABUXHET"
+}

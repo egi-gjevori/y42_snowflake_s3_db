@@ -1,0 +1,28 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "MINI5",
+    "USI",
+    "MINI3",
+    "DISCNT5",
+    "MINI2",
+    "DATECREATE",
+    "DISCNT4",
+    "USM",
+    "TAGNR",
+    "RRUMBULL",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "LLOJI",
+    "KOD",
+    "DISCNT3",
+    "MINI1",
+    "MINI4",
+    "DISCNT2",
+    "NRRENDOR",
+    "DISCNT1"
+  ],
+  "import": "BM15_dbo_ZBRITJE"
+}

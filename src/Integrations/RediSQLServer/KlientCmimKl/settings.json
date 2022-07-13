@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "KLASIFIKIM3",
+    "NRD",
+    "KLASIFIKIM1",
+    "KATEGORI",
+    "STATROW",
+    "AGJENTSHITJE",
+    "TAGNR",
+    "KLASIFIKIM2",
+    "PERFAQESUES",
+    "PERSHKRIM",
+    "GRUP",
+    "RAJON",
+    "TROW",
+    "KOD",
+    "NIPT",
+    "VENDNDODHJE",
+    "ADRESA2",
+    "NRRENDOR",
+    "ADRESA1"
+  ],
+  "import": "BM15_dbo_KlientCmimKl"
+}

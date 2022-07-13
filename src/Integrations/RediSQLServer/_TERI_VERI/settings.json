@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRRENDOR",
+    "KMAG",
+    "NRDOK",
+    "DATEDOK",
+    "SHENIM1"
+  ],
+  "import": "BM15_dbo__TERI_VERI"
+}

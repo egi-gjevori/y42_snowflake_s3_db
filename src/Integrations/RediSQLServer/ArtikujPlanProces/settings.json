@@ -1,0 +1,22 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "SHENIM2",
+    "DATECREATE",
+    "USM",
+    "SHENIM1",
+    "TAGNR",
+    "NR",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "KODLP",
+    "SASI",
+    "KOD",
+    "NJESI",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_ArtikujPlanProces"
+}

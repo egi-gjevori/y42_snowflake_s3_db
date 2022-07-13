@@ -1,0 +1,28 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "PerqDscn",
+    "Kodfkl",
+    "PerqZbr",
+    "Bc",
+    "Datedok",
+    "VlTvsh",
+    "Klasifikim1",
+    "VlerZbr",
+    "Nrdok",
+    "Kmon",
+    "Kartllg",
+    "Klasifikim",
+    "Pershkrim",
+    "Kurs2",
+    "Cmimbs",
+    "Sasi",
+    "Vlerabs",
+    "CmshZb0",
+    "NrFat",
+    "Tipkll",
+    "Kmag",
+    "VlPaTvsh"
+  ],
+  "import": "BM15_dbo_Tmp_Fj"
+}

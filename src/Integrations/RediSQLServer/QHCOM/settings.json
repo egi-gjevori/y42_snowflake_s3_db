@@ -1,0 +1,32 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "FRAKSDOK",
+    "NRDOK",
+    "DATEDOK",
+    "KURS1",
+    "KMON",
+    "DTFAT",
+    "GRUPREF",
+    "TEL1",
+    "KOMENT",
+    "TREGDK",
+    "OPERAPL",
+    "OPERLLOJ",
+    "TIPFAT",
+    "TIPDOK",
+    "KURS2",
+    "PERSHKRIM",
+    "KODMASTER",
+    "NRORD",
+    "OPERORD",
+    "TEL2",
+    "KOD",
+    "VLEFTA",
+    "VLEFTAMV",
+    "OPERDET",
+    "NRRENDOR",
+    "NRFAT"
+  ],
+  "import": "BM15_dbo_QHCOM"
+}

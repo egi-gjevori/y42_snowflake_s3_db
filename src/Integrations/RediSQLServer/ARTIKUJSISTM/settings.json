@@ -1,0 +1,24 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRDOK",
+    "TRANNUMBER",
+    "DATEDOK",
+    "QKOSTO",
+    "STATUS",
+    "DATEFILLIM",
+    "TAG",
+    "DATEFUND",
+    "SHENIM1",
+    "TAGNR",
+    "ACTIV",
+    "STATUSST",
+    "KMAG",
+    "PERSHKRIM",
+    "TROW",
+    "KOD",
+    "NRFRAKS",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_ARTIKUJSISTM"
+}

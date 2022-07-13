@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "VLERTOT",
+    "NRDOK",
+    "DTAF",
+    "DATEDOK",
+    "DTPAGESE",
+    "KMON",
+    "DTFAT",
+    "VLERTOTMB",
+    "SHENIM1",
+    "KODFKL",
+    "TIPDOK",
+    "KOD",
+    "NRDITAR",
+    "NRFAT"
+  ],
+  "import": "BM15_dbo_QFFAFPAG"
+}

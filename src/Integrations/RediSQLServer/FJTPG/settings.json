@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRD",
+    "ORDERSCR",
+    "STATROW",
+    "TAGNR",
+    "KMONSHL",
+    "KURSSHL",
+    "VLEFTESHLMV",
+    "PERSHKRIM",
+    "TROW",
+    "VLEFTESHLFAT",
+    "VLEFTESHL",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_FJTPG"
+}

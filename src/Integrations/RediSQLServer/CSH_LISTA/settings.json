@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DATE_MBARIMI",
+    "DATE_FILLIMI",
+    "PRIORITET",
+    "PERFSHIN_TVSH",
+    "LEJO_SKONTO_RRESHT",
+    "KMON",
+    "CMIMI",
+    "VAT_Business_Posting_Group",
+    "TIP_CMIMI",
+    "BC",
+    "ID",
+    "TIP_SHITJE",
+    "KOD_SHITJE",
+    "SASIA_MINIMALE",
+    "IMPORTUAR",
+    "KOD",
+    "MARZHI",
+    "NJESI",
+    "LEJO_SKONTO_TOTAL"
+  ],
+  "import": "BM15_dbo_CSH_LISTA"
+}

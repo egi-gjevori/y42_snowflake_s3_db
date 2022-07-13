@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "VLEREPERAMORTIZIM2",
+    "CREGJISTRUAR",
+    "VLEREHISTORIKE",
+    "KARTLLG",
+    "KATEGORI",
+    "AMORTIZIMTOTAL",
+    "CALCULVLEREMIN1",
+    "VLEREMBETUR",
+    "CALCULVLEREMIN2",
+    "PERSHKRIM",
+    "VLEREPERAMORTIZIM1"
+  ],
+  "import": "BM15_dbo_Isd_AQGjendjeAktivi"
+}

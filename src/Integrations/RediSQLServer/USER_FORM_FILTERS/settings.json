@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRRENDOR",
+    "USERNAME",
+    "FORM_NAME",
+    "FILTER_NAME",
+    "FILTER_DATA"
+  ],
+  "import": "BM15_dbo_USER_FORM_FILTERS"
+}

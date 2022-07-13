@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "SASIH",
+    "DTFUNDSH",
+    "DTFUNDBL",
+    "CMBLMADH",
+    "BC",
+    "CMBLVOGEL",
+    "CMFUNDBLERE",
+    "DTFILLBL",
+    "Kod",
+    "Sasi",
+    "SASID"
+  ],
+  "import": "BM15_dbo_GjendjeArtikujND"
+}

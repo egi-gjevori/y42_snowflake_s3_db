@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "USI",
+    "DATECREATE",
+    "TAG",
+    "LLOGINV",
+    "USM",
+    "LLOGSH",
+    "TAGNR",
+    "NDRGJEND",
+    "DATEEDIT",
+    "PERSHKRIM",
+    "NOTACTIV",
+    "TROW",
+    "LLOGSHPZ01",
+    "KOD",
+    "LLOGB",
+    "NRRENDOR",
+    "KLASIFIKIM"
+  ],
+  "import": "BM15_dbo_SKEMELM"
+}

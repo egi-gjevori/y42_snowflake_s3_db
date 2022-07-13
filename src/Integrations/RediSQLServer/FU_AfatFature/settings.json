@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRSERIAL",
+    "AFATPAGESE",
+    "VLERTOT",
+    "NRDOK",
+    "NRFATURE",
+    "DATEDOK",
+    "KMON",
+    "VLERTOTMB",
+    "DITEKALUAR",
+    "SHENIM1",
+    "KODFKL",
+    "TIPDOK",
+    "DATEFATURE",
+    "DITEPAGESE",
+    "KOD",
+    "NIPT",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_FU_AfatFature"
+}

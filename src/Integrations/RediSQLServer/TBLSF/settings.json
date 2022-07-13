@@ -1,0 +1,22 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "TIP",
+    "NRD",
+    "TABLENAME",
+    "FIELDNAME",
+    "NRORDER",
+    "TAGNR",
+    "TIPNAME",
+    "WIDTH",
+    "KODLIST",
+    "INGRID",
+    "PERSHKRIM",
+    "TROW",
+    "PROMPT",
+    "SQLISTE",
+    "NRRENDOR",
+    "VISIBLE"
+  ],
+  "import": "BM15_dbo_TBLSF"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "FIELDS",
+    "NRD",
+    "KODUS",
+    "FORMNAME",
+    "TAGNR",
+    "ACTIV",
+    "TIPDOK",
+    "FORMREF",
+    "TROW",
+    "NRRENDOR"
+  ],
+  "import": "BM15_dbo_DRHUSERFRM"
+}
