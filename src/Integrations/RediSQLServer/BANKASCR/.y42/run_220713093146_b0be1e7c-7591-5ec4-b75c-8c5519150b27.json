@@ -75,5 +75,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:46.594536+00:00",
-  "_signature": "xc5u0AvsUu+8yey9KO8KJ/mmuVmonsKjPQPQr5r4CV8dZgVMh8z6ojtprSkqCqaV9nhS5/XfoOEwZbf62zFBCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:34:53.350833+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_BANKASCR": {
+          "version": 1657704763225
+        }
+      },
+      "currently_syncing": "BM15_dbo_BANKASCR",
+      "schema_hash": "43a4d5dc7b247f3a250d64480a482939"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5937f-3201-3a5c-0000-e9a10018b07e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/b4764c7b-e9ff-46b8-b616-95dc55fac993",
+    "partial": false
+  },
+  "_signature": "rulPXVukS0DQm0GPr46z9VdbOB1LrDiosNVQ+uZ18k2lB7fflt4Rg63qLYL1fhISAIQLpdIJcJHRooqM/fZADw=="
 }
