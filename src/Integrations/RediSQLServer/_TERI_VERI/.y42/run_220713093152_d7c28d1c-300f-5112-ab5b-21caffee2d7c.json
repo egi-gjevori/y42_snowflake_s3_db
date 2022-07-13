@@ -42,5 +42,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:52.177056+00:00",
-  "_signature": "jUoXBzpT52UEedqeAMhjLZW/TWRicTBa9fUC+0D5DORzWz76ma5wOws/VgQ0oHvz7Dv7PwAIn9W9xFRYjqFFAg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:34:49.202867+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo__TERI_VERI": {
+          "version": 1657704832578
+        }
+      },
+      "currently_syncing": "BM15_dbo__TERI_VERI",
+      "schema_hash": "1ed864a83b66d07c29d42a2c7b6338df"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5937f-3201-3a5c-0000-e9a10018b076",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/0f3612b9-5116-45fc-becd-97b51b23df3e",
+    "partial": false
+  },
+  "_signature": "OtXZbU6GQ8jOJKPblSuKh/+pEUstTqVo9sdHKxkdwZhv2o5G818NT2XZvjySIyjvQcQaAGiGS5l9A7ZOT52zAw=="
 }
