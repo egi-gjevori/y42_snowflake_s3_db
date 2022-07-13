@@ -1,0 +1,73 @@
+{
+  "request_id": "220713102434_37b2bd31-54b1-59af-aa26-ebabc467f197",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "VAL_SIZE",
+        "T",
+        "NRD",
+        "HESTR",
+        "LEVIZ",
+        "VAL_TYPE",
+        "DESC",
+        "VAL_NO",
+        "INDEXED",
+        "DISPLAYED",
+        "SIZE_DESC",
+        "VAL_MIN",
+        "USC",
+        "VAL_RIGHT",
+        "S_NAME",
+        "TAGNR",
+        "SIZE_DISPLAY",
+        "SKEDARI",
+        "NR",
+        "CODE",
+        "VAL_DEFAULT",
+        "MANUALE",
+        "TROW",
+        "SECURITY",
+        "VAL_MAX",
+        "KOD",
+        "HEMODE",
+        "MERPJESE",
+        "SIZE_SHORTDESC",
+        "NRRENDOR",
+        "REQUIRED",
+        "VAL_UCO"
+      ],
+      "import": "BM15_dbo_SG_SEGMENTSL"
+    },
+    "created_at": "2022-07-13T10:24:34.846220+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/SG_SEGMENTSL",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "d5912af3084aadd6f8b60018447cf458885ab5e5"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T10:24:34.846220+00:00",
+  "_signature": "aJ7bCqU3nkFkULlIQcpKc+oFtQ4gUt0JrMdyqrsn+3hLoDk6yGMsxnOfxK100ico4br1R8dnnjjw+C1vK2nhDg=="
+}
