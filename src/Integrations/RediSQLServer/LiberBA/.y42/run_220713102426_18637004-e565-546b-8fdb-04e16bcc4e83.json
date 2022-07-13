@@ -82,5 +82,22 @@
     }
   },
   "created_at": "2022-07-13T10:24:26.989697+00:00",
-  "_signature": "MW/V366JhEdZc84l1CevPkIlclz7v7V4O/btYMh9fRiLmoavUmcCobam3ekaYI8wMytkSCDyrfo3NIJDf0tyAA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T10:27:51.637592+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_LiberBA": {
+          "version": 1657707965703
+        }
+      },
+      "currently_syncing": "BM15_dbo_LiberBA",
+      "schema_hash": "7573c909779d5bbb149bb475dcee0b64"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a593b4-3201-3a5e-0000-e9a10018c3a6",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/7b9f2b4a-96d4-4376-b272-70a102dfcf69",
+    "partial": false
+  },
+  "_signature": "jDkPb21HK+dKe+vTYCWyTs9uW5u6LhJZs7eMF6XRIMBosmcSvQDFvtXHGu+NVEyi2QFDJGWCuBoxApv0qSLzBQ=="
 }
