@@ -40,5 +40,22 @@
     }
   },
   "created_at": "2022-07-13T09:31:47.883278+00:00",
-  "_signature": "M7pGz2omcGFV8iJW/RtKe9CsuA9+vwbDVrw5pWh44zRq7p014CyzV6Ip+PqbruWmAYtVzQ/dDbzU6YFIcvwiCw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T09:40:46.869924+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_DRHReference": {
+          "version": 1657704733225
+        }
+      },
+      "currently_syncing": "BM15_dbo_DRHReference",
+      "schema_hash": "efee591441b76f5f428e3c2008c165b9"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59384-3201-3a5c-0000-e9a10018b136",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/1f1d9994-e7ff-49ff-a3f3-0d4d4747046b",
+    "partial": false
+  },
+  "_signature": "sfsNxIRWHRkCluQ652Bygnf6AbW9BjFuoF2BCZojlI0YDxkRDDRsr7qjSF+d6kz94U04E2X3YaBV5JpVBctcDw=="
 }
