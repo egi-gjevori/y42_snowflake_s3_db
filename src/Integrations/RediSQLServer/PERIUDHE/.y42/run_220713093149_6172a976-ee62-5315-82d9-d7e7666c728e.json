@@ -1,6 +1,6 @@
 {
   "request_id": "220713093149_6172a976-ee62-5315-82d9-d7e7666c728e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -60,7 +60,56 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5937e-3201-3a5d-0000-e9a10018a03a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/948c127e-6c3c-453f-ba50-cce21c4fdcf8",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:34:53.196305+00:00",
+    "row_count": 205,
+    "current_import_row_count": 205,
+    "size_in_bytes": 7168,
+    "columns": [
+      {
+        "field_name": "data1",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "gjendje",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "periudhe",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "data",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      }
+    ],
+    "table_name": "220713093149_6172a976-ee62-5315-82d9-d7e7666c728e",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713093149_6172a976-ee62-5315-82d9-d7e7666c728e"
   },
-  "_signature": "taH0VFrFo2Eujs0jkbhoKev+oDJNlrAPeu1d9StOZHutcXUa/xEwmbUmeeyshZSSo7vCiyLlsUz9U+DC8dilCA=="
+  "finished_at": "2022-07-13T09:34:53.196506+00:00",
+  "_signature": "/+mvuNLdloex2J50rhnwjGBaT4EOt3EM3yxs5Brle67T5uvOLfOnTExrZn9+wJnWsgQqKXfKKtDMS8xEWEYYDA=="
 }
