@@ -1,0 +1,45 @@
+{
+  "request_id": "220713093155_93d2a51a-c17c-5b7c-a332-c936970d76c0",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "KOD",
+        "CMRIMBURSIM",
+        "CMRIMBURSIM1",
+        "CMRIMBURSIM2"
+      ],
+      "import": "BM15_dbo_CMIMERIMB"
+    },
+    "created_at": "2022-07-13T09:31:55.389131+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/CMIMERIMB",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "e96750aabe2690b1beb47b705c03ad973e98a809"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:31:55.389131+00:00",
+  "_signature": "TPC4IZUyH0D8lwjcKHt2OCjD6S9uHkagOQC/BGj94uw6rmx9eUZrCHXqxuD73XJFENYMv0x1RgmO7PKLQWkMCA=="
+}
