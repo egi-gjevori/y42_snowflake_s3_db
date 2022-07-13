@@ -1,6 +1,6 @@
 {
   "request_id": "220713102419_ad676292-dc95-5a8b-94d7-318a725e6a86",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -57,7 +57,41 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b2-3201-3a5c-0000-e9a10018b2fa",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/9f6ca69f-6dd3-4d9b-a642-0ecbead9198c",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:27:02.473408+00:00",
+    "row_count": 112462,
+    "current_import_row_count": 112462,
+    "size_in_bytes": 782336,
+    "columns": [
+      {
+        "field_name": "nrdshoq",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "klasifikim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dtdshoq",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "kmag",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "klasifikim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102419_ad676292-dc95-5a8b-94d7-318a725e6a86",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102419_ad676292-dc95-5a8b-94d7-318a725e6a86"
   },
-  "_signature": "FajOceTtXmf6szmSuiJn59jFymxdjwqe7NUDhTlV81RqBqHHvtYNCUik/BQgVxS5jYgEtBwGZk8I1mVDb9JhCw=="
+  "finished_at": "2022-07-13T10:27:02.473521+00:00",
+  "_signature": "cm5BH4X3Kqjo0UqkypDprwlD78h4z1ZVcaueB2YGLNGS0SGsLt5oiTFbcZIUi5MkBAmuh+ZOVnXF4U9BKnRkCA=="
 }
