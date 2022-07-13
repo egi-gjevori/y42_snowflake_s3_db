@@ -1,0 +1,48 @@
+{
+  "request_id": "220713092611_7341c1e7-9a27-5f94-9072-107834606a2a",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "ID",
+        "KOD",
+        "PERSHKRIM",
+        "PERFSHIN_TVSH",
+        "LEJO_SKONTO_RRESHT",
+        "LEJO_SKONTO_TOTAL",
+        "VAT_Business_Posting_Group"
+      ],
+      "import": "BM15_dbo_CSH_GRUP_KLIENTI"
+    },
+    "created_at": "2022-07-13T09:26:11.624190+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/CSH_GRUP_KLIENTI",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "410bfc12cadf60c55d1b57626414a67c41b5818f"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:26:11.624190+00:00",
+  "_signature": "i6BuY2xRc7NO2gpUCtMu5HyKbrhYN1/FEynuTXfxHQu7cDP1moP5zUd9uw8e2IrxJV2Df0+2fNEBqVfAIp+kDQ=="
+}
