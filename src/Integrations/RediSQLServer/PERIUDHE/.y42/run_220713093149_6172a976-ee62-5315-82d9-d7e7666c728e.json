@@ -1,6 +1,6 @@
 {
   "request_id": "220713093149_6172a976-ee62-5315-82d9-d7e7666c728e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -61,15 +61,15 @@
     "external_id": "01a5937e-3201-3a5d-0000-e9a10018a056",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/07030600-703f-49e5-b979-b6e1cc8d11da",
     "partial": false,
-    "import_finished_at": "2022-07-13T09:34:53.196305+00:00",
+    "import_finished_at": "2022-07-13T09:35:02.283395+00:00",
     "row_count": 205,
     "current_import_row_count": 205,
     "size_in_bytes": 7168,
     "columns": [
       {
-        "field_name": "data1",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
       },
       {
         "field_name": "gjendje",
@@ -77,24 +77,14 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "tagnr",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
+        "field_name": "data",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
       },
       {
-        "field_name": "trow",
-        "data_type": "BOOLEAN",
-        "external_data_type": "BOOLEAN"
-      },
-      {
-        "field_name": "periudhe",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
-      },
-      {
-        "field_name": "nrrendor",
-        "data_type": "FLOAT",
-        "external_data_type": "NUMBER"
+        "field_name": "data1",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
       },
       {
         "field_name": "pershkrim",
@@ -102,14 +92,24 @@
         "external_data_type": "TEXT"
       },
       {
-        "field_name": "data",
-        "data_type": "TIMESTAMP",
-        "external_data_type": "TIMESTAMP_NTZ"
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "periudhe",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
       }
     ],
     "table_name": "220713093149_6172a976-ee62-5315-82d9-d7e7666c728e",
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713093149_6172a976-ee62-5315-82d9-d7e7666c728e"
   },
-  "finished_at": "2022-07-13T09:34:53.196506+00:00",
-  "_signature": "NUSg8SIFn1KvKgk+G2E3TyJj7fN4pvK1RvPdBQtmgugA5NVH7saBtrSKMRFW5gQ5URNcMVsYbWfbT6pq2HIDCA=="
+  "finished_at": "2022-07-13T09:35:02.283561+00:00",
+  "_signature": "DULUTjriysmrhyL8aHjQaMyHpm4t3CpvLfKI38VNayC9Mp9Y66pnt3I+Nt7A8nrMQzXBMKgDaDxhZNUjXnlBBw=="
 }
