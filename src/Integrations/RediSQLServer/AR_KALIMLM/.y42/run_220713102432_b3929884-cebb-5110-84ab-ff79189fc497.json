@@ -1,6 +1,6 @@
 {
   "request_id": "220713102432_b3929884-cebb-5110-84ab-ff79189fc497",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -57,7 +57,41 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b4-3201-3a5d-0000-e9a10018a3fe",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/5834f19e-6abf-41a5-9082-b779204cb80e",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:29:00.902887+00:00",
+    "row_count": 263978,
+    "current_import_row_count": 263978,
+    "size_in_bytes": 1700352,
+    "columns": [
+      {
+        "field_name": "llogari",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "nrd",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "kod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "llogaripk",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102432_b3929884-cebb-5110-84ab-ff79189fc497",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102432_b3929884-cebb-5110-84ab-ff79189fc497"
   },
-  "_signature": "7ge3qO18y0EMSev05W2efoY4VARP24yGaxE44Rq5rrCbz37Ov7oUoUE0ziH2MI+isCGGcX7OgVBZ147191whDg=="
+  "finished_at": "2022-07-13T10:29:00.902990+00:00",
+  "_signature": "kOuqoVUuog74JYk0ALDgOB+ZdNKacTFjFT7sV0QOG6CGzpm9gSPnlGEtFhGj1konP1V+BAysJoAQk+v7Uk7HCQ=="
 }
