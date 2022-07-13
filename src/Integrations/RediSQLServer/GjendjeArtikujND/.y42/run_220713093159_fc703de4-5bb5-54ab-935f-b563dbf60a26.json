@@ -1,0 +1,52 @@
+{
+  "request_id": "220713093159_fc703de4-5bb5-54ab-935f-b563dbf60a26",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "SASIH",
+        "DTFUNDSH",
+        "DTFUNDBL",
+        "CMBLMADH",
+        "BC",
+        "CMBLVOGEL",
+        "CMFUNDBLERE",
+        "DTFILLBL",
+        "Kod",
+        "Sasi",
+        "SASID"
+      ],
+      "import": "BM15_dbo_GjendjeArtikujND"
+    },
+    "created_at": "2022-07-13T09:31:59.650487+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/GjendjeArtikujND",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "d215b301409df124d0f316d35d17731093d3f997"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:31:59.650487+00:00",
+  "_signature": "KfoxsPWOvm1Duy4unNXZgb/EtzA58nYaizz6DKV6lmoNSVQWzehsG6nnQ1b6eubIN2YdSYiDjyGx7e9mtrZ6Cw=="
+}
