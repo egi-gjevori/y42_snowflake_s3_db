@@ -1,0 +1,101 @@
+{
+  "request_id": "220713093205_beb0a115-b52c-531e-82ac-19cb013d67c4",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "TIP",
+        "SASIH",
+        "NRD",
+        "NRDOK",
+        "KODPACIENT",
+        "KARTLLG",
+        "SASIDKONV",
+        "CMIMM",
+        "SHENIM2",
+        "GJENROWRVL",
+        "SASIDKOEF",
+        "DATEDOK",
+        "KODKLF",
+        "KTH",
+        "VLERAFR",
+        "VLERAOR",
+        "NRFRAKSLNK",
+        "VLERAD",
+        "KODDOCTEGZAM",
+        "VLERAFT",
+        "SHENIM4",
+        "VLERAH",
+        "KOMENT",
+        "SHENIM1",
+        "KODDOCTREFER",
+        "TIPFR",
+        "KMAG",
+        "TIPDOK",
+        "SASIHKONV",
+        "DTSKADENCE",
+        "ISAMB",
+        "KMAGLNK",
+        "BARCOD",
+        "NRDOKLNK",
+        "DST",
+        "DATEDOKLNK",
+        "TIPKTH",
+        "PROMOC",
+        "PERSHKRIM",
+        "NRRENDORFAT",
+        "NRRENDORSCR",
+        "SASIFR",
+        "KMAGRF",
+        "KODLM",
+        "DOK_JB",
+        "CMIMSH",
+        "GJENROWAUT",
+        "SHENIM3",
+        "SASIHKOEF",
+        "KONVERTART",
+        "KOD",
+        "NRMAG",
+        "SERI",
+        "NRFRAKS",
+        "NJESI",
+        "SASID",
+        "NRRENDOR",
+        "VLERASHD",
+        "KODAF",
+        "VLERASHH"
+      ],
+      "import": "BM15_dbo_LEVIZJEHDFJ"
+    },
+    "created_at": "2022-07-13T09:32:05.438283+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/LEVIZJEHDFJ",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "bf9a2ddd028e692321a86c6f0bcdc3fda6c49831"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:32:05.438283+00:00",
+  "_signature": "zKKppivrcL8YB73KDPBb/nskrU6pfMJH1YsG97GfpTHEiekuD1/rTN1Z0X5Ak/wu0zSukUJza1dLPAeKxrufDA=="
+}
