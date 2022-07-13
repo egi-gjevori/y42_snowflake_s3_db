@@ -1,0 +1,102 @@
+{
+  "request_id": "220713093158_1d9d80e5-d4b3-5e27-9abd-e795f2f8b184",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NOTACTIVRF",
+        "DET1",
+        "VENDNDODHJERF",
+        "KLASIFIKIM5RF",
+        "TELEFON2RF",
+        "TIPKLL",
+        "TELEFON1RF",
+        "FRAKSDOK",
+        "NRDOK",
+        "KLASIFIKIM3RF",
+        "NRRENDORDOK",
+        "AFATRF",
+        "TRANNUMBER",
+        "KLASIFIKIM2RF",
+        "DATEDOK",
+        "KURS1",
+        "ORG",
+        "KMON",
+        "DTFAT",
+        "GRUPRF",
+        "VENDHUAJRF",
+        "KLASIFIKIM1RF",
+        "KOMENT",
+        "LLOGARIRF",
+        "TREGDK",
+        "NRORDERDTFAT",
+        "TAGNR",
+        "PRODUCTMANAGERRF",
+        "MODPGRF",
+        "TIPFAT",
+        "TIPDOK",
+        "KATEGORIRF",
+        "ORDERTD",
+        "KURS2",
+        "PERSHKRIM",
+        "KLASIFIKIM6RF",
+        "KODMASTER",
+        "NIPTRF",
+        "TROW",
+        "NRLIBER",
+        "DET5",
+        "LLOJDOK",
+        "KLASIFIKIM4RF",
+        "KOD",
+        "VLEFTA",
+        "VLEFTAMV",
+        "KODREF",
+        "KODRF",
+        "NRDITAR",
+        "DET4",
+        "DET2",
+        "KODLINKKFRF",
+        "NRRENDOR",
+        "KMONRF",
+        "PERSHKRIMRF",
+        "RAJONRF",
+        "LISTERF",
+        "DET3",
+        "ISDOKSHOQ",
+        "DEPRF",
+        "NRFAT"
+      ],
+      "import": "BM15_dbo_LiberFu"
+    },
+    "created_at": "2022-07-13T09:31:58.092768+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/LiberFu",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "c5fb9419411d88fdc7b80e3c1e7dab2fe6385e7d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T09:31:58.092768+00:00",
+  "_signature": "ggqoI1lYGTFcobkr8zOUFPofmxjNPGfnEoJa9/5ZmldN4MFA1hWTokviJeKNeCHzt4s0Q9xD1agXqvCpLsMCBQ=="
+}
