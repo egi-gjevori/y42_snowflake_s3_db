@@ -1,6 +1,6 @@
 {
   "request_id": "220713102432_ce948d62-f23c-5cfb-9d3a-f0e1822ffbc7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -106,7 +106,286 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a593b5-3201-3a5e-0000-e9a10018c422",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/c5be709c-5993-4323-9ac3-a3f10e1a5812",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T10:29:37.567449+00:00",
+    "row_count": 109928,
+    "current_import_row_count": 109928,
+    "size_in_bytes": 3237888,
+    "columns": [
+      {
+        "field_name": "shkarkim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ngarkim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "startpoint",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "fax",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dateedit",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "destinshenim2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "pershkrim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "koment",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kompani",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "vehowner",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "time",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "shenim2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "carriername",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "carriertown",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "tagnr",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "carrieradress",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "currieridnum",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "escortrequired",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "kodzone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kod",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "niptcertifikate",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sasingarkim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "njesingarkim",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "telefon2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "telefon1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "packnum",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "datecreate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "shenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "startadress",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "agjensidg2",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "agjent",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "zone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "trow",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "packtype",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "destindate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "idtype",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrd",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "destinpoint",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "agjensidg1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "targe",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "startcity",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "destintime",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "destinshenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "destinshenim3",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "mjet",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "goodsflammable",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "zona",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "transportues",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kodfiskal",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "shenim3",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nipt",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrlicence",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713102432_ce948d62-f23c-5cfb-9d3a-f0e1822ffbc7",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102432_ce948d62-f23c-5cfb-9d3a-f0e1822ffbc7"
   },
-  "_signature": "rcSC4+kkVqs3u32qbiS0S3Jefs60TRmofwLHdmFA2G9NHhXodQov2MouNPuB28zgZGN57bQm+R3DFJx20EBBCw=="
+  "finished_at": "2022-07-13T10:29:37.567624+00:00",
+  "_signature": "LJfjD6bBKKYgKKvl+/8DAH7CJUokezKQwY80C8zff4P+5AQX2NdzwfZiCSMtMaNVuuF9gypshSzOmK8ANMmxBg=="
 }
