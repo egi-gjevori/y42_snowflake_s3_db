@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "DATE_MBARIMI",
+    "USERS_KOD",
+    "DATE_FILLIMI",
+    "PRIORITET",
+    "STATUS_KOD",
+    "OPERATOR",
+    "TIP_CMIMI",
+    "ID",
+    "TIP_SHITJE",
+    "KOD_SHITJE",
+    "PERSHKRIM",
+    "AKTIV",
+    "KOD",
+    "UPDATED"
+  ],
+  "import": "BM15_dbo_CSH_PROMOCION"
+}

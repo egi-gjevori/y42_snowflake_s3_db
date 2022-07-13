@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+  "columns": [
+    "NRRENDOR",
+    "RNGA",
+    "RDERI",
+    "PIKE"
+  ],
+  "import": "BM15_dbo_CONAD"
+}
