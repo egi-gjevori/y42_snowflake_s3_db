@@ -1,0 +1,57 @@
+{
+  "request_id": "220714075655_b3a7c2f7-7480-5071-8b3d-80cbf9354627",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NRSERIAL",
+        "USI",
+        "SHENIM",
+        "DATECREATE",
+        "TAG",
+        "PESHESPECIF",
+        "USM",
+        "TAGNR",
+        "DATEEDIT",
+        "PERSHKRIM",
+        "KOEFICENT",
+        "NOTACTIV",
+        "TROW",
+        "KOD",
+        "NRRENDOR",
+        "KLASIFIKIM"
+      ],
+      "import": "BM15_dbo_AQKls5"
+    },
+    "created_at": "2022-07-14T07:56:55.631628+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/AQKls5",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "adrian-debug"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "7066b72390f6146c4a50669f8da2cf7e2a588afe"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "187",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-14T07:56:55.631628+00:00",
+  "_signature": "bRiEjbQDQ+vPqvZV5+F0tKUux22synd1GYfprlCTdPf1/cC63YXYMBc/Qkm/OuuZDyfhvQywNE/Tum/mf6MBCQ=="
+}
