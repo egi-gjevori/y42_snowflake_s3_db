@@ -1,0 +1,46 @@
+{
+  "request_id": "220714073200_43126666-98d9-5aab-8d6f-ee3fcce55839",
+  "status": "pending",
+  "request": {
+    "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/source.json#sql_server"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mssql/0.0.0/table",
+      "columns": [
+        "NRRENDOR",
+        "KMAG",
+        "NRDOK",
+        "DATEDOK",
+        "SHENIM1"
+      ],
+      "import": "BM15_dbo__TERI_VERI"
+    },
+    "created_at": "2022-07-14T07:32:00.788771+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediSQLServer/_TERI_VERI",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "adrian-debug"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "e3272919bd2070537f3549e70b0a82cf4fba094d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "187",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-14T07:32:00.788771+00:00",
+  "_signature": "itV2uP3lDrWg09UDB4prquWqAI+VAB2C+KjAH/8VoRnlCUbXOOztTHasetxtl/IHCXhRaUPzH51q1M6IdbFRCw=="
+}
