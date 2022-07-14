@@ -1,6 +1,6 @@
 {
   "request_id": "220713102417_fd138836-7325-50a8-b5a0-74f1f73b2960",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -45,19 +45,19 @@
   "created_at": "2022-07-13T10:24:17.792770+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-14T03:17:15.487111+00:00",
+    "export_finished_at": "2022-07-14T03:21:05.154784+00:00",
     "external_state": {
       "bookmarks": {
         "BM15_dbo_LLOGNRTIMEKR": {
-          "version": 1657707897571
+          "version": 1657708320003
         }
       },
       "currently_syncing": "BM15_dbo_LLOGNRTIMEKR",
       "schema_hash": "e1cb37f8b40f8c48b68bd69d54f33ef0"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "01a597a5-3201-3a5e-0000-e9a10018c566",
-    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/b94fa01a-549a-4de6-8f3f-075d0fd06ed8",
+    "external_id": "01a597a9-3201-3a5e-0000-e9a10018c56e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/929fa7b4-942b-4fcd-867d-9ac9084d13ea",
     "partial": false,
     "import_finished_at": "2022-07-14T03:17:39.070121+00:00",
     "row_count": 885499,
@@ -99,5 +99,5 @@
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220713102417_fd138836-7325-50a8-b5a0-74f1f73b2960"
   },
   "finished_at": "2022-07-14T03:17:39.070252+00:00",
-  "_signature": "Qt6QKtmlfHY4p+MTdVb363Ppy//NpVHZTzPMNqsiPPbcn6h7hbjKCwCPzkQOM8KcVSpO/mU5e8hnrH5LdvGjAw=="
+  "_signature": "OjYpkHxtmWfc12MOzJmBS9h0CWHiHvHD0mgJYleyRb7UKWsNm8cMTrUqvFiVlhRv9XIqL9B9utZ1GDhhk398AA=="
 }
