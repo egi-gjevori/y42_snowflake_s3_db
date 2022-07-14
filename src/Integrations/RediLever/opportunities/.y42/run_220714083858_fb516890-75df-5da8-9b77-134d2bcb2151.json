@@ -1,6 +1,6 @@
 {
   "request_id": "220714083858_fb516890-75df-5da8-9b77-134d2bcb2151",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -84,7 +84,151 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5990d-3201-3a5d-0000-e9a10018a58a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-lever/8c52d540-e4b6-4c6f-8ae5-646f71884ce0",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-14T09:18:31.659856+00:00",
+    "row_count": 114076,
+    "current_import_row_count": 114076,
+    "size_in_bytes": 43301888,
+    "columns": [
+      {
+        "field_name": "lastinteractionat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "isanonymized",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "createdat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "stage",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "links",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sources",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "followers",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "stagechanges",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "confidentiality",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "location",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "sourcedby",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "applications",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "phones",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "archived",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "dataprotection",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "headline",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "origin",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "owner",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "urls",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "contact",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "emails",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "lastadvancedat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "snoozeduntil",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "updatedat",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      }
+    ],
+    "table_name": "220714083858_fb516890-75df-5da8-9b77-134d2bcb2151",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220714083858_fb516890-75df-5da8-9b77-134d2bcb2151"
   },
-  "_signature": "ij0jtPN3r6mAzDvcd+RUxHlKuAmHR6P4EPy5+eryrvsJzu07p7LuOOPGyxEFuQ5MBsqes/j+YkDDThaZfQyfCA=="
+  "finished_at": "2022-07-14T09:18:31.660047+00:00",
+  "_signature": "I60mcgWOi3d3RGtnDQgZQKlygHWHWcMBqpuoll2N4Op1IsVLMgZ7hDb9QXHis31PoPLV5rBZ+ENAfCIEMwGKAg=="
 }
