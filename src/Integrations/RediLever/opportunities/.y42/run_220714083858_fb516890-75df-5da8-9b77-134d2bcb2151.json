@@ -1,0 +1,73 @@
+{
+  "request_id": "220714083858_fb516890-75df-5da8-9b77-134d2bcb2151",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a3c71b8b-51be-4f56-9900-8800f4dec63d",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/source.json",
+      "start_date": "2021-07-08T09:57:28Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+      "columns": [
+        "id",
+        "name",
+        "headline",
+        "contact",
+        "stage",
+        "stageChanges",
+        "location",
+        "phones",
+        "emails",
+        "links",
+        "archived",
+        "tags",
+        "sources",
+        "origin",
+        "owner",
+        "sourcedBy",
+        "confidentiality",
+        "followers",
+        "applications",
+        "createdAt",
+        "updatedAt",
+        "lastInteractionAt",
+        "lastAdvancedAt",
+        "snoozedUntil",
+        "urls",
+        "dataProtection",
+        "isAnonymized"
+      ],
+      "import": "opportunities",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-14T08:38:58.941850+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediLever/opportunities",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "e3272919bd2070537f3549e70b0a82cf4fba094d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-14T08:38:58.941850+00:00",
+  "_signature": "Nm4lBa19K3TQKnzHwomzrop1Pw/qQ1tOye7sJeKtiLMBTUr4mKjbuhKu3baDYM58AKSfZsgjoGhJoxz+mn0qAQ=="
+}
