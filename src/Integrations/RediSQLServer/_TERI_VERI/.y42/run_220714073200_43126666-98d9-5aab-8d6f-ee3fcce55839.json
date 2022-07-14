@@ -1,6 +1,6 @@
 {
   "request_id": "220714073200_43126666-98d9-5aab-8d6f-ee3fcce55839",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -57,7 +57,41 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a598a5-3201-3a5e-0000-e9a10018c57a",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/7782f94f-a67a-4252-b966-c8dc95c5cc10",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-14T07:33:09.102155+00:00",
+    "row_count": 115,
+    "current_import_row_count": 115,
+    "size_in_bytes": 4608,
+    "columns": [
+      {
+        "field_name": "datedok",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "nrrendor",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "shenim1",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "kmag",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "nrdok",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220714073200_43126666-98d9-5aab-8d6f-ee3fcce55839",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220714073200_43126666-98d9-5aab-8d6f-ee3fcce55839"
   },
-  "_signature": "yetzgte2QZ2RXEHhDnr4JaWJxfa7UlrWydnIfqMgw/Xz4mRBRG+CtXM1iNf31F6Guz4W/7MadpuX8tm+t8K0Dw=="
+  "finished_at": "2022-07-14T07:33:09.102347+00:00",
+  "_signature": "Mer5mMJ050SM5Y6y5e+h4eCzcbp6ydL/5uWYkrGc4AZ6+TtzRAHIQv/Ik7N1wU/wx7qVKpIOX0YbC/X2KcBmAQ=="
 }
