@@ -1,6 +1,6 @@
 {
   "request_id": "220722100505_fec13340-ea7d-558a-8b1e-d8fec73b3ecc",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "4f497677-72cf-4d4f-9c25-de28629e234b",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -59,7 +59,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5c63d-3201-3eb2-0000-e9a10019b2ae",
     "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-postgres/025dc69f-a0b6-442d-b729-e528a58c7c60",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-22T10:05:47.233754+00:00",
+    "row_count": 5,
+    "current_import_row_count": 5,
+    "size_in_bytes": 2048,
+    "columns": [
+      {
+        "field_name": "team_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clock_out_time",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "clock_in_time",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220722100505_fec13340-ea7d-558a-8b1e-d8fec73b3ecc",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220722100505_fec13340-ea7d-558a-8b1e-d8fec73b3ecc"
   },
-  "_signature": "Y9raBndWU80eUYfxqshq3R74Sp2cLJOX0Z7KLK7Wk3KX84QdcgsBUX+xh4/a4eK10sM5oZkPfASqvmNSNSoHDA=="
+  "finished_at": "2022-07-22T10:05:47.233908+00:00",
+  "_signature": "4BRObvKOvDiG6hvbuVcintCTECF2MDSXFMxLz++QK3Pj0/yDIyEYxizA/hw76zzVhlOixOqoNz+z+tglmQynDA=="
 }
