@@ -1,0 +1,45 @@
+{
+  "request_id": "220722095455_ef0e89aa-e2e7-5bdd-ad40-025366108270",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a19763e9-85d2-4cce-9fe2-4802831e117e",
+    "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+      "columns": [
+        "id",
+        "team_name",
+        "clock_in_time",
+        "clock_out_time"
+      ],
+      "import": "postgres-public-team_schedule"
+    },
+    "created_at": "2022-07-22T09:54:55.950820+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediPOstgres/team_schedule",
+        "id": "6:ff957504-4e37-4a27-8dd0-6a67bc8e8201",
+        "branch": "adrian-debug"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "egi-gjevori",
+        "repo": "y42_snowflake_s3_db",
+        "commit_sha": "2e87f609a75f0a9905b0e08c30d087248619b0d9"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "81",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-22T09:54:55.950820+00:00",
+  "_signature": "70BiwXGxKY3TaDFiKXwLREbnke5Tg2S7z99PWcegUdzH3LqN5jAom5z6/kW3DaW/U0qF89EOyM9rTEoGdIFpAA=="
+}
