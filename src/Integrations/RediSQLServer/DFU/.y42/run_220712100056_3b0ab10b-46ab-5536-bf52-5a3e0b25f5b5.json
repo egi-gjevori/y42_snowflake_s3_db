@@ -72,7 +72,7 @@
     }
   },
   "created_at": "2022-07-12T10:00:56.039190+00:00",
-  "failed_at": "2022-07-12T13:42:37.747128+00:00",
+  "failed_at": "2022-07-12T14:28:28.036665+00:00",
   "error_code": 500,
   "error_message": "target process exited with none zero exit code: 1",
   "details": {
@@ -278,5 +278,5 @@
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220712100056_3b0ab10b-46ab-5536-bf52-5a3e0b25f5b5"
   },
   "finished_at": "2022-08-12T14:24:58.738221+00:00",
-  "_signature": "OPDR9YbwHrTEl1ZJNX6/UlAScKXzBuNLplxcEZMKODln56zWURzKKCmLk+rc1ObPgPa7s60ocnjkX/mJqDooBA=="
+  "_signature": "4g1JnPhlpwUKhqzCkxb9i2ogysmRd8M9MSN/JZyJ5nQCR1PIn4K2QWMpfN/FIr/VhliNErCeZ2jM6IQupL04Bg=="
 }
