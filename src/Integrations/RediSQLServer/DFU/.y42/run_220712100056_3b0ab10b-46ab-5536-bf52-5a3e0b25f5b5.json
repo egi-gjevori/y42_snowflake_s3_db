@@ -1,6 +1,6 @@
 {
   "request_id": "220712100056_3b0ab10b-46ab-5536-bf52-5a3e0b25f5b5",
-  "status": "ready",
+  "status": "invalid",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -72,7 +72,7 @@
     }
   },
   "created_at": "2022-07-12T10:00:56.039190+00:00",
-  "failed_at": "2022-07-12T12:44:06.234034+00:00",
+  "failed_at": "2022-07-12T13:42:37.747128+00:00",
   "error_code": 500,
   "error_message": "target process exited with none zero exit code: 1",
   "details": {
@@ -278,5 +278,5 @@
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220712100056_3b0ab10b-46ab-5536-bf52-5a3e0b25f5b5"
   },
   "finished_at": "2022-08-12T14:24:58.738221+00:00",
-  "_signature": "bWFlZHcFhAZdQ/9wsfKUbsItlLB67H37cCFGDvFprHAx7ajGxu/yd/6W1+FBok/pBzkvYCcJiC1306OCPqqzDQ=="
+  "_signature": "OPDR9YbwHrTEl1ZJNX6/UlAScKXzBuNLplxcEZMKODln56zWURzKKCmLk+rc1ObPgPa7s60ocnjkX/mJqDooBA=="
 }
