@@ -1,6 +1,6 @@
 {
   "request_id": "220712100056_3b0ab10b-46ab-5536-bf52-5a3e0b25f5b5",
-  "status": "invalid",
+  "status": "pending",
   "request": {
     "source_credentials": "805202fb-0301-4776-bb0b-785c35aea043",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -75,5 +75,24 @@
   "failed_at": "2022-07-12T12:44:06.234034+00:00",
   "error_code": 500,
   "error_message": "target process exited with none zero exit code: 1",
-  "_signature": "0U0COeVLAi+nGCvP1LozPMwmVIOnepSp8FjOSBeg4T/FszJBTw5moaeRhVNbDFt2vhArH7O+1Zc1M8bnhNLTAA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-12T18:17:51.785429+00:00",
+    "external_state": {
+      "bookmarks": {
+        "BM15_dbo_DFU": {
+          "replication_key_name": "NRRENDOR",
+          "replication_key_value": 1143346,
+          "version": 1657620112712
+        }
+      },
+      "currently_syncing": "BM15_dbo_DFU",
+      "schema_hash": "b55c738059e34258b87f121ff1798888"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a63d60-3201-453b-0000-e9a1001bb64e",
+    "storage_file": "s3://snowflake-test-egi/userUploads/v2/tap-mssql/de335435-c1b6-49d5-8de7-ebdbd9a8a02f",
+    "partial": false
+  },
+  "_signature": "G/jVCeh68S2eRlDt34STT3Z1x3bI6KTcldAViCCPJvUKBMRmTGjdfyLH1pHzH8et/TWUV4o6UFKEF/2nf0YIAQ=="
 }
