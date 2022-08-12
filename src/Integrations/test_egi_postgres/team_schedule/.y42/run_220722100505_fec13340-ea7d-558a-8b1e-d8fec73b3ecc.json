@@ -1,6 +1,6 @@
 {
   "request_id": "220722100505_fec13340-ea7d-558a-8b1e-d8fec73b3ecc",
-  "status": "ready",
+  "status": "invalid",
   "request": {
     "source_credentials": "4f497677-72cf-4d4f-9c25-de28629e234b",
     "target_credentials": "60d9e676-2af9-4171-97f0-f68d94361653",
@@ -90,5 +90,8 @@
     "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=EGI_TEST_DATABASE&schemaName=EGI_TEST_SCHEMA&tableName=220722100505_fec13340-ea7d-558a-8b1e-d8fec73b3ecc"
   },
   "finished_at": "2022-08-12T14:25:06.787740+00:00",
-  "_signature": "LT1qB3xQJK+GPri0LsNpLizmO/OUzNFH89DJmEo1Itk7fMgXBvsmjYacSyurqG6z4114WiEG6ANTlN0EZnmVAw=="
+  "failed_at": "2022-07-22T10:10:44.118204+00:00",
+  "error_code": 500,
+  "error_message": "target process exited with none zero exit code: 1",
+  "_signature": "AbV3ULakK2B3k99hJu49/nbC6Q96TM5C27eDYELrWy282ZgWATdQHACEXdbrme1aNAdjlaR2tFD88Gl2XCgHDQ=="
 }
