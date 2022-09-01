@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "opportunity_id",
+    "type",
+    "text",
+    "baseTemplateId",
+    "stage",
+    "user",
+    "instructions",
+    "fields",
+    "createdAt",
+    "completedAt",
+    "deletedAt"
+  ],
+  "import": "opportunity_forms"
+}

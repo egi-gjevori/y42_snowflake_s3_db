@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "name",
+    "username",
+    "email",
+    "createdAt",
+    "deactivatedAt",
+    "accessRole",
+    "photo",
+    "externalDirectoryId"
+  ],
+  "import": "users"
+}

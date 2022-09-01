@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/lever/0.0.0/table",
+  "columns": [
+    "id",
+    "type",
+    "text",
+    "instructions",
+    "fields",
+    "baseTemplateId",
+    "user",
+    "referrer",
+    "stage",
+    "createdAt",
+    "completedAt",
+    "opportunity_id"
+  ],
+  "import": "opportunity_referrals"
+}
